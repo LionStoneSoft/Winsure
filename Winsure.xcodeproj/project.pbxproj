@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23DCF1C1674EB1893CE13938 /* Pods_Winsure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701822A0480F2095F17D462 /* Pods_Winsure.framework */; };
 		94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E022D23485007B68E2 /* AppDelegate.swift */; };
 		94F640E322D23485007B68E2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E222D23485007B68E2 /* Locations.swift */; };
 		94F640E622D23485007B68E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F640E422D23485007B68E2 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3701822A0480F2095F17D462 /* Pods_Winsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Winsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F640DD22D23485007B68E2 /* Winsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Winsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F640E022D23485007B68E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94F640E222D23485007B68E2 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		94F640EF22D23486007B68E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F640F722D38B89007B68E2 /* LocationXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationXib.swift; sourceTree = "<group>"; };
 		94F640F822D38B89007B68E2 /* LocationXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationXib.xib; sourceTree = "<group>"; };
+		9C6DC13A25F159C1F73F003B /* Pods-Winsure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winsure.debug.xcconfig"; path = "Target Support Files/Pods-Winsure/Pods-Winsure.debug.xcconfig"; sourceTree = "<group>"; };
+		CC9F0F1F842D9284EB3CEE7D /* Pods-Winsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winsure.release.xcconfig"; path = "Target Support Files/Pods-Winsure/Pods-Winsure.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DCF1C1674EB1893CE13938 /* Pods_Winsure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,8 @@
 			children = (
 				94F640DF22D23485007B68E2 /* Winsure */,
 				94F640DE22D23485007B68E2 /* Products */,
+				CB77F97FDB707C32FFB26C91 /* Pods */,
+				AF199F9F68D4D63D5ABEA703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +96,24 @@
 			path = "Xib files";
 			sourceTree = "<group>";
 		};
+		AF199F9F68D4D63D5ABEA703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3701822A0480F2095F17D462 /* Pods_Winsure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB77F97FDB707C32FFB26C91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6DC13A25F159C1F73F003B /* Pods-Winsure.debug.xcconfig */,
+				CC9F0F1F842D9284EB3CEE7D /* Pods-Winsure.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94F640F222D23486007B68E2 /* Build configuration list for PBXNativeTarget "Winsure" */;
 			buildPhases = (
+				E49299203E992DCDB4B2D011 /* [CP] Check Pods Manifest.lock */,
 				94F640D922D23485007B68E2 /* Sources */,
 				94F640DA22D23485007B68E2 /* Frameworks */,
 				94F640DB22D23485007B68E2 /* Resources */,
+				954D4147371A0BD3BFEB9982 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +182,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		954D4147371A0BD3BFEB9982 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Winsure/Pods-Winsure-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Winsure/Pods-Winsure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49299203E992DCDB4B2D011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Winsure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94F640D922D23485007B68E2 /* Sources */ = {
@@ -308,6 +382,7 @@
 		};
 		94F640F322D23486007B68E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6DC13A25F159C1F73F003B /* Pods-Winsure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,6 +401,7 @@
 		};
 		94F640F422D23486007B68E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9F0F1F842D9284EB3CEE7D /* Pods-Winsure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
