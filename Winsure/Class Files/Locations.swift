@@ -14,6 +14,7 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var locationTable: UITableView!
     @IBOutlet var totalValue: UILabel!
     @IBOutlet var totalItems: UILabel!
+    @IBOutlet var addLocationButton: UIButton!
     
     let cellColour = [UIColor.red, UIColor.blue, UIColor.green]
     
