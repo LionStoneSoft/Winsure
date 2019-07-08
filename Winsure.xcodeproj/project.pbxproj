@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E022D23485007B68E2 /* AppDelegate.swift */; };
-		94F640E322D23485007B68E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E222D23485007B68E2 /* ViewController.swift */; };
+		94F640E322D23485007B68E2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E222D23485007B68E2 /* Locations.swift */; };
 		94F640E622D23485007B68E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F640E422D23485007B68E2 /* Main.storyboard */; };
 		94F640E922D23485007B68E2 /* Winsure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E722D23485007B68E2 /* Winsure.xcdatamodeld */; };
 		94F640EB22D23486007B68E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F640EA22D23486007B68E2 /* Assets.xcassets */; };
 		94F640EE22D23486007B68E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F640EC22D23486007B68E2 /* LaunchScreen.storyboard */; };
+		94F640F922D38B89007B68E2 /* LocationXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640F722D38B89007B68E2 /* LocationXib.swift */; };
+		94F640FA22D38B89007B68E2 /* LocationXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F640F822D38B89007B68E2 /* LocationXib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94F640DD22D23485007B68E2 /* Winsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Winsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F640E022D23485007B68E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94F640E222D23485007B68E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94F640E222D23485007B68E2 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		94F640E522D23485007B68E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94F640E822D23485007B68E2 /* Winsure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Winsure.xcdatamodel; sourceTree = "<group>"; };
 		94F640EA22D23486007B68E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F640ED22D23486007B68E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F640EF22D23486007B68E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F640F722D38B89007B68E2 /* LocationXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationXib.swift; sourceTree = "<group>"; };
+		94F640F822D38B89007B68E2 /* LocationXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationXib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,9 @@
 		94F640DF22D23485007B68E2 /* Winsure */ = {
 			isa = PBXGroup;
 			children = (
+				94F640F622D38B19007B68E2 /* Xib files */,
+				94F640F522D38ACD007B68E2 /* Class Files */,
 				94F640E022D23485007B68E2 /* AppDelegate.swift */,
-				94F640E222D23485007B68E2 /* ViewController.swift */,
 				94F640E422D23485007B68E2 /* Main.storyboard */,
 				94F640EA22D23486007B68E2 /* Assets.xcassets */,
 				94F640EC22D23486007B68E2 /* LaunchScreen.storyboard */,
@@ -65,6 +70,23 @@
 				94F640E722D23485007B68E2 /* Winsure.xcdatamodeld */,
 			);
 			path = Winsure;
+			sourceTree = "<group>";
+		};
+		94F640F522D38ACD007B68E2 /* Class Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F640E222D23485007B68E2 /* Locations.swift */,
+			);
+			path = "Class Files";
+			sourceTree = "<group>";
+		};
+		94F640F622D38B19007B68E2 /* Xib files */ = {
+			isa = PBXGroup;
+			children = (
+				94F640F722D38B89007B68E2 /* LocationXib.swift */,
+				94F640F822D38B89007B68E2 /* LocationXib.xib */,
+			);
+			path = "Xib files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F640FA22D38B89007B68E2 /* LocationXib.xib in Resources */,
 				94F640EE22D23486007B68E2 /* LaunchScreen.storyboard in Resources */,
 				94F640EB22D23486007B68E2 /* Assets.xcassets in Resources */,
 				94F640E622D23485007B68E2 /* Main.storyboard in Resources */,
@@ -138,7 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94F640E322D23485007B68E2 /* ViewController.swift in Sources */,
+				94F640F922D38B89007B68E2 /* LocationXib.swift in Sources */,
+				94F640E322D23485007B68E2 /* Locations.swift in Sources */,
 				94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */,
 				94F640E922D23485007B68E2 /* Winsure.xcdatamodeld in Sources */,
 			);
