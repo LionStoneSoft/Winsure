@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		23DCF1C1674EB1893CE13938 /* Pods_Winsure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701822A0480F2095F17D462 /* Pods_Winsure.framework */; };
+		948A5F4A22D4A79A002952B1 /* LocationCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A5F4922D4A79A002952B1 /* LocationCreate.swift */; };
+		948A5F4C22D4AB67002952B1 /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A5F4B22D4AB67002952B1 /* ItemsList.swift */; };
+		948A5F4F22D4ACF6002952B1 /* ItemsXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A5F4D22D4ACF6002952B1 /* ItemsXib.swift */; };
+		948A5F5022D4ACF6002952B1 /* ItemsXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948A5F4E22D4ACF6002952B1 /* ItemsXib.xib */; };
 		94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E022D23485007B68E2 /* AppDelegate.swift */; };
 		94F640E322D23485007B68E2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E222D23485007B68E2 /* Locations.swift */; };
 		94F640E622D23485007B68E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F640E422D23485007B68E2 /* Main.storyboard */; };
@@ -20,6 +24,10 @@
 
 /* Begin PBXFileReference section */
 		3701822A0480F2095F17D462 /* Pods_Winsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Winsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		948A5F4922D4A79A002952B1 /* LocationCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCreate.swift; sourceTree = "<group>"; };
+		948A5F4B22D4AB67002952B1 /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
+		948A5F4D22D4ACF6002952B1 /* ItemsXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsXib.swift; sourceTree = "<group>"; };
+		948A5F4E22D4ACF6002952B1 /* ItemsXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsXib.xib; sourceTree = "<group>"; };
 		94F640DD22D23485007B68E2 /* Winsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Winsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F640E022D23485007B68E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94F640E222D23485007B68E2 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
@@ -83,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				94F640E222D23485007B68E2 /* Locations.swift */,
+				948A5F4922D4A79A002952B1 /* LocationCreate.swift */,
+				948A5F4B22D4AB67002952B1 /* ItemsList.swift */,
 			);
 			path = "Class Files";
 			sourceTree = "<group>";
@@ -92,6 +102,8 @@
 			children = (
 				94F640F722D38B89007B68E2 /* LocationXib.swift */,
 				94F640F822D38B89007B68E2 /* LocationXib.xib */,
+				948A5F4D22D4ACF6002952B1 /* ItemsXib.swift */,
+				948A5F4E22D4ACF6002952B1 /* ItemsXib.xib */,
 			);
 			path = "Xib files";
 			sourceTree = "<group>";
@@ -110,7 +122,6 @@
 				9C6DC13A25F159C1F73F003B /* Pods-Winsure.debug.xcconfig */,
 				CC9F0F1F842D9284EB3CEE7D /* Pods-Winsure.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,7 +136,7 @@
 				94F640D922D23485007B68E2 /* Sources */,
 				94F640DA22D23485007B68E2 /* Frameworks */,
 				94F640DB22D23485007B68E2 /* Resources */,
-				954D4147371A0BD3BFEB9982 /* [CP] Embed Pods Frameworks */,
+				763E35665203772FD655BEF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948A5F5022D4ACF6002952B1 /* ItemsXib.xib in Resources */,
 				94F640FA22D38B89007B68E2 /* LocationXib.xib in Resources */,
 				94F640EE22D23486007B68E2 /* LaunchScreen.storyboard in Resources */,
 				94F640EB22D23486007B68E2 /* Assets.xcassets in Resources */,
@@ -184,7 +196,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		954D4147371A0BD3BFEB9982 /* [CP] Embed Pods Frameworks */ = {
+		763E35665203772FD655BEF6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,8 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948A5F4C22D4AB67002952B1 /* ItemsList.swift in Sources */,
 				94F640F922D38B89007B68E2 /* LocationXib.swift in Sources */,
 				94F640E322D23485007B68E2 /* Locations.swift in Sources */,
+				948A5F4F22D4ACF6002952B1 /* ItemsXib.swift in Sources */,
+				948A5F4A22D4A79A002952B1 /* LocationCreate.swift in Sources */,
 				94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */,
 				94F640E922D23485007B68E2 /* Winsure.xcdatamodeld in Sources */,
 			);
