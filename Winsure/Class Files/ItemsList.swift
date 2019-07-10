@@ -10,7 +10,6 @@ import UIKit
 
 class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var itemTable: UITableView!
-    @IBOutlet var addItemButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,4 +27,6 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "itemXib", for: indexPath) as! ItemXib
         return cell
     }
+    
+    
 }
