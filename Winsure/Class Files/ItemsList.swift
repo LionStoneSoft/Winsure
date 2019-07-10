@@ -14,7 +14,7 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        itemTable.register(UINib(nibName: "ItemsXib", bundle: nil), forCellReuseIdentifier: "itemsXib")
+        itemTable.register(UINib(nibName: "ItemXib", bundle: nil), forCellReuseIdentifier: "itemXib")
         itemTable.delegate = self
         itemTable.dataSource = self
     }
@@ -24,7 +24,7 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "itemsXib", for: indexPath) as! ItemsXib
+        let cell = tableView.dequeueReusableCell(withIdentifier: "itemXib", for: indexPath) as! ItemXib
         return cell
     }
 }

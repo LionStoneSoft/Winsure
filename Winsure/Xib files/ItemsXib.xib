@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,39 +19,59 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="54.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iOg-nl-YjX">
-                        <rect key="frame" x="5" y="5" width="311" height="49"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.26380956169999997" green="0.28014716509999998" blue="0.4000135064" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgv-ny-PoJ">
-                        <rect key="frame" x="74" y="10" width="83" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgv-ny-PoJ">
+                        <rect key="frame" x="59" y="10" width="245" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oty-Ro-7Cz">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scooby" translatesAutoresizingMaskIntoConstraints="NO" id="oty-Ro-7Cz">
                         <rect key="frame" x="11" y="10" width="40" height="40"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="oty-Ro-7Cz" secondAttribute="height" multiplier="1:1" id="cRJ-57-uWJ"/>
+                        </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ah-F3-KmK">
-                        <rect key="frame" x="74" y="29" width="42" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ah-F3-KmK">
+                        <rect key="frame" x="59" y="29" width="245" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scooby" translatesAutoresizingMaskIntoConstraints="NO" id="ATg-qb-90b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                        <color key="backgroundColor" red="0.26380956169999997" green="0.28014716509999998" blue="0.4000135064" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </imageView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Qgv-ny-PoJ" secondAttribute="trailing" constant="16" id="03Q-A6-Rb0"/>
+                    <constraint firstAttribute="trailing" secondItem="oty-Ro-7Cz" secondAttribute="trailing" constant="269" id="6GQ-sh-fty"/>
+                    <constraint firstItem="ATg-qb-90b" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Dpa-kY-Gju"/>
+                    <constraint firstItem="6Ah-F3-KmK" firstAttribute="leading" secondItem="oty-Ro-7Cz" secondAttribute="trailing" constant="8" id="GEx-yG-NVX"/>
+                    <constraint firstItem="Qgv-ny-PoJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="GQA-q4-7bH"/>
+                    <constraint firstItem="Qgv-ny-PoJ" firstAttribute="leading" secondItem="oty-Ro-7Cz" secondAttribute="trailing" constant="8" id="Ho2-PF-eFX"/>
+                    <constraint firstAttribute="bottom" secondItem="ATg-qb-90b" secondAttribute="bottom" constant="-0.5" id="KFU-ma-nrZ"/>
+                    <constraint firstAttribute="bottom" secondItem="oty-Ro-7Cz" secondAttribute="bottom" constant="4.5" id="L7k-2c-d9z"/>
+                    <constraint firstAttribute="trailing" secondItem="6Ah-F3-KmK" secondAttribute="trailing" constant="16" id="NuM-40-41b"/>
+                    <constraint firstItem="oty-Ro-7Cz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="R48-EI-OTD"/>
+                    <constraint firstAttribute="bottom" secondItem="6Ah-F3-KmK" secondAttribute="bottom" constant="4.5" id="cNx-jm-adN"/>
+                    <constraint firstItem="ATg-qb-90b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eDb-ud-KEo"/>
+                    <constraint firstItem="6Ah-F3-KmK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="iPO-Nc-uzE"/>
+                    <constraint firstAttribute="trailing" secondItem="ATg-qb-90b" secondAttribute="trailing" id="iWh-9u-XzQ"/>
+                    <constraint firstItem="oty-Ro-7Cz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="iqQ-5T-4QO"/>
+                    <constraint firstAttribute="bottom" secondItem="Qgv-ny-PoJ" secondAttribute="bottom" constant="23.5" id="qCt-5g-nXI"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="backgroundImage" destination="iOg-nl-YjX" id="Ju0-ia-Psf"/>
-                <outlet property="itemImage" destination="oty-Ro-7Cz" id="81B-jH-ozE"/>
-                <outlet property="itemName" destination="Qgv-ny-PoJ" id="hpR-5G-6Dt"/>
-                <outlet property="itemValue" destination="6Ah-F3-KmK" id="Vtl-Td-uMH"/>
+                <outlet property="backImage" destination="ATg-qb-90b" id="QtS-f5-iPI"/>
+                <outlet property="itemImage" destination="oty-Ro-7Cz" id="Bec-LL-qOP"/>
+                <outlet property="itemName" destination="Qgv-ny-PoJ" id="O59-tf-IEI"/>
+                <outlet property="itemValue" destination="6Ah-F3-KmK" id="t5S-V1-sTs"/>
             </connections>
-            <point key="canvasLocation" x="137.68115942028987" y="138.28125"/>
+            <point key="canvasLocation" x="137.59999999999999" y="138.0809595202399"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="scooby" width="168" height="173"/>
+    </resources>
 </document>

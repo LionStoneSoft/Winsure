@@ -1,23 +1,23 @@
 //
-//  ItemsXib.swift
+//  ItemXib.swift
 //  Winsure
 //
-//  Created by Ryan Soanes on 09/07/2019.
+//  Created by Ryan Soanes on 10/07/2019.
 //  Copyright © 2019 LionStone. All rights reserved.
 //
 
 import UIKit
 
-class ItemsXib: UITableViewCell {
+class ItemXib: UITableViewCell {
 
-    @IBOutlet var backImage: UIImageView!
+    @IBOutlet var backgroundImage: UIImageView!
     @IBOutlet var itemImage: UIImageView!
-    @IBOutlet var itemName: UILabel!
+    @IBOutlet var itemTitle: UILabel!
     @IBOutlet var itemValue: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-//        roundedImage()
+        roundedImage()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -26,11 +26,11 @@ class ItemsXib: UITableViewCell {
         // Configure the view for the selected state
     }
     
-//    func roundedImage() {
-//        self.backImage.layer.cornerRadius = 35
-//        self.backImage.clipsToBounds = true
-//        self.itemImage.layer.cornerRadius = 35
-//        self.itemImage.clipsToBounds = true
-//    }
+    func roundedImage() {
+        self.backgroundImage.layer.cornerRadius = 38
+        self.backgroundImage.clipsToBounds = true
+        self.itemImage.layer.cornerRadius = 32
+        self.itemImage.clipsToBounds = true
+    }
     
 }

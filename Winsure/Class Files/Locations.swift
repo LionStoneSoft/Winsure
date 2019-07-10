@@ -14,7 +14,6 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var locationTable: UITableView!
     @IBOutlet var totalValue: UILabel!
     @IBOutlet var totalItems: UILabel!
-    @IBOutlet var addLocationButton: UIButton!
     
     let cellColour = [UIColor.red, UIColor.blue, UIColor.green]
     
@@ -34,6 +33,10 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "locationXib", for: indexPath) as! LocationXib
             cell.backgroundImage.backgroundColor = cellColour[indexPath.row % 3]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "goToItems", sender: self)
     }
 
 }
