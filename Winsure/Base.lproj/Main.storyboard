@@ -158,7 +158,7 @@
                                 <color key="separatorColor" red="0.68741747379999996" green="0.90392459160000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qf-X8-Kej">
-                                <rect key="frame" x="299" y="528" width="57" height="54"/>
+                                <rect key="frame" x="299" y="536" width="57" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6qf-X8-Kej" secondAttribute="height" multiplier="19:18" id="cpP-Dd-tl6"/>
                                     <constraint firstAttribute="height" constant="54" id="eU4-kz-DdB"/>
@@ -172,7 +172,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="n10-ci-0iK" firstAttribute="bottom" secondItem="6qf-X8-Kej" secondAttribute="bottom" constant="21" id="79F-Lc-H59"/>
+                            <constraint firstItem="n10-ci-0iK" firstAttribute="bottom" secondItem="6qf-X8-Kej" secondAttribute="bottom" constant="13" id="79F-Lc-H59"/>
                             <constraint firstItem="M44-LA-6kZ" firstAttribute="trailing" secondItem="n10-ci-0iK" secondAttribute="trailing" id="8wv-Bo-xYM"/>
                             <constraint firstItem="M44-LA-6kZ" firstAttribute="leading" secondItem="n10-ci-0iK" secondAttribute="leading" id="HlD-YC-7Fz"/>
                             <constraint firstAttribute="bottom" secondItem="M44-LA-6kZ" secondAttribute="bottom" id="Y3r-Ib-Kf0"/>
