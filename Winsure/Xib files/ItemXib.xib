@@ -42,6 +42,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" red="0.1682245356" green="0.17681514349999999" blue="0.19237785530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="oar-Ut-LRv" secondAttribute="bottom" constant="5.5" id="3Pj-c2-61v"/>
                     <constraint firstItem="fSF-45-zjW" firstAttribute="leading" secondItem="oar-Ut-LRv" secondAttribute="trailing" constant="8" id="B5B-SB-rr2"/>

@@ -1,5 +1,5 @@
 //
-//  ItemView.swift
+//  ItemCreate.swift
 //  Winsure
 //
 //  Created by Ryan Soanes on 10/07/2019.
@@ -8,8 +8,7 @@
 
 import UIKit
 
-class ItemView: UIViewController {
-    
+class ItemCreate: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")

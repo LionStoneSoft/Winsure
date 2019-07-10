@@ -17,6 +17,7 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
         itemTable.register(UINib(nibName: "ItemXib", bundle: nil), forCellReuseIdentifier: "itemXib")
         itemTable.delegate = self
         itemTable.dataSource = self
+        self.navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
