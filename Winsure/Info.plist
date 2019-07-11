@@ -43,5 +43,7 @@
 	</array>
     <key>NSCameraUsageDescription</key>
     <string>For item and location display photos</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>To pick photos for item and location display photos</string>
 </dict>
 </plist>

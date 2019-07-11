@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0616DC59DD74BB4C8AC5E0C307D82EC8"
+               BlueprintIdentifier = "B1F7370F299EF62679F36F2F180BB18A"
                BuildableName = "Pods_Winsure.framework"
                BlueprintName = "Pods-Winsure"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0616DC59DD74BB4C8AC5E0C307D82EC8"
+            BlueprintIdentifier = "B1F7370F299EF62679F36F2F180BB18A"
             BuildableName = "Pods_Winsure.framework"
             BlueprintName = "Pods-Winsure"
             ReferencedContainer = "container:Pods.xcodeproj">

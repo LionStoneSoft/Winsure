@@ -9,10 +9,13 @@
 import UIKit
 import TextFieldEffects
 import CoreData
+import CropViewController
 
-class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, CropViewControllerDelegate {
     @IBOutlet var locationImagePreview: UIImageView!
     @IBOutlet var locationCreateTextField: IsaoTextField!
+    @IBOutlet var locationCreateBackgroundImage: UIImageView!
+    
     var imageNSData: NSData?
     
     override func viewDidLoad() {
@@ -24,18 +27,24 @@ class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBAction func takePhotoButton(_ sender: UIButton) {
         let camera = UIImagePickerController()
         camera.sourceType = .camera
-        camera.allowsEditing = true
+        //camera.allowsEditing = true
         camera.delegate = self
         present(camera, animated: true)
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.dismiss(animated: true, completion: nil)
-        
-        guard let image = info[.editedImage] as? UIImage else {
+        guard let image = info[.originalImage] as? UIImage else {
             print("No image found")
             return
         }
+        let cropViewController = CropViewController(image: image)
+        cropViewController.delegate = self
+        present(cropViewController, animated: true, completion: nil)
+    }
+    
+    func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
+        // 'image' is the newly cropped version of the original image
         locationImagePreview.image = image
         guard let imageData = image.jpegData(compressionQuality: 0.5) else {
             // handle failed conversion
@@ -43,8 +52,7 @@ class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavig
             return
         }
         imageNSData = imageData as NSData
-        //print(imageNSData!)
-        
+        cropViewController.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func locationCreateButton(_ sender: UIButton) {
@@ -56,6 +64,8 @@ class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavig
     func roundedImage() {
         self.locationImagePreview.layer.cornerRadius = 75
         self.locationImagePreview.clipsToBounds = true
+        self.locationCreateBackgroundImage.layer.cornerRadius = 50
+        self.locationCreateBackgroundImage.clipsToBounds = true
     }
     
     func saveData() {

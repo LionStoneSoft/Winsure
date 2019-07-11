@@ -1,16 +1,20 @@
 PODS:
+  - CropViewController (2.4.0)
   - TextFieldEffects (1.5.1)
 
 DEPENDENCIES:
+  - CropViewController
   - TextFieldEffects
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CropViewController
     - TextFieldEffects
 
 SPEC CHECKSUMS:
+  CropViewController: a090820b15fc3da68e694d7c192a4708c576828b
   TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
 
-PODFILE CHECKSUM: 08f8d4dab1dc96cea206578490914a84653d1b4c
+PODFILE CHECKSUM: 81912cb4d6c6d4d37a590469574beaa155f361fc
 
 COCOAPODS: 1.6.0
