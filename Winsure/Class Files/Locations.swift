@@ -56,7 +56,11 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
         cell.titleLabel.text = locationObjectsArray[indexPath.row].value(forKey: "locationName") as? String
         let imagetest = locationObjectsArray[indexPath.row].value(forKey: "locationPicture")
-        cell.locationImage.image = UIImage.init(data: imagetest as! Data, scale: 1)
+        if imagetest != nil {
+            cell.locationImage.image = UIImage.init(data: imagetest as! Data, scale: 1)
+        } else {
+            cell.locationImage.image = UIImage.init(named: "scooby")
+        }
         return cell
     }
     

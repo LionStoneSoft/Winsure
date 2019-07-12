@@ -6,6 +6,7 @@ target 'Winsure' do
   use_frameworks!
 pod 'TextFieldEffects'
 pod 'CropViewController'
+pod 'IQKeyboardManagerSwift'
   # Pods for Winsure
 
 end

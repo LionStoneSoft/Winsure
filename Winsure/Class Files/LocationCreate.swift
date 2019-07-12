@@ -12,9 +12,9 @@ import CoreData
 import CropViewController
 
 class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, CropViewControllerDelegate {
-    @IBOutlet var locationImagePreview: UIImageView!
     @IBOutlet var locationCreateTextField: IsaoTextField!
     @IBOutlet var locationCreateBackgroundImage: UIImageView!
+    @IBOutlet var addPhotoButtonImage: UIButton!
     
     var imageNSData: NSData?
     
@@ -45,7 +45,7 @@ class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
         // 'image' is the newly cropped version of the original image
-        locationImagePreview.image = image
+        addPhotoButtonImage.setBackgroundImage(image, for: .normal)
         guard let imageData = image.jpegData(compressionQuality: 0.5) else {
             // handle failed conversion
             print("jpg error")
@@ -62,8 +62,8 @@ class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     
     func roundedImage() {
-        self.locationImagePreview.layer.cornerRadius = 75
-        self.locationImagePreview.clipsToBounds = true
+        self.addPhotoButtonImage.layer.cornerRadius = 75
+        self.addPhotoButtonImage.clipsToBounds = true
         self.locationCreateBackgroundImage.layer.cornerRadius = 50
         self.locationCreateBackgroundImage.clipsToBounds = true
     }
@@ -78,7 +78,8 @@ class LocationCreate: UIViewController, UIImagePickerControllerDelegate, UINavig
         let location = NSManagedObject(entity: locationEntity, insertInto: managedContext)
         location.setValue(locationCreateTextField.text, forKey: "locationName")
         location.setValue(imageNSData, forKey: "locationPicture")
-        
+        let uuid = UUID().uuidString
+        location.setValue(uuid, forKey: "locationID")
         do {
             try managedContext.save()
         } catch let error as NSError {

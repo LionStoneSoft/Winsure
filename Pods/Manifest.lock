@@ -1,20 +1,24 @@
 PODS:
   - CropViewController (2.4.0)
+  - IQKeyboardManagerSwift (6.2.1)
   - TextFieldEffects (1.5.1)
 
 DEPENDENCIES:
   - CropViewController
+  - IQKeyboardManagerSwift
   - TextFieldEffects
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CropViewController
+    - IQKeyboardManagerSwift
     - TextFieldEffects
 
 SPEC CHECKSUMS:
   CropViewController: a090820b15fc3da68e694d7c192a4708c576828b
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
   TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
 
-PODFILE CHECKSUM: 81912cb4d6c6d4d37a590469574beaa155f361fc
+PODFILE CHECKSUM: dcb979f50bc9fe933c34df2efc1a0688b19030da
 
 COCOAPODS: 1.6.0
