@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F203" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ItemObject" representedClassName="ItemObject" syncable="YES" codeGenerationType="class">
+        <attribute name="itemDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemMake" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemModel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemPicFour" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="itemPicOne" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="itemPicThree" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="itemPicTwo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="itemSerial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="locationObject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LocationObject" inverseName="itemObject" inverseEntity="LocationObject" syncable="YES"/>
+    </entity>
     <entity name="LocationObject" representedClassName="LocationObject" syncable="YES" codeGenerationType="class">
         <attribute name="locationID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="locationName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="locationPicture" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="itemObject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ItemObject" inverseName="locationObject" inverseEntity="ItemObject" syncable="YES"/>
     </entity>
     <elements>
-        <element name="LocationObject" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="LocationObject" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="ItemObject" positionX="-63" positionY="9" width="128" height="210"/>
     </elements>
 </model>

@@ -7,108 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02FB225950EEA73C12B14A3D74A2096E /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C5DC4DCB835070FB2147A7672F60F /* IQUIView+IQKeyboardToolbar.swift */; };
-		0362FCC9A5F2C53BA3BCACD8499E0DA8 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A576484C44A4AA8BF889C41FA8D237C /* KaedeTextField.swift */; };
-		0921EB8D79F843EA14F395C411752408 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5FC9C15B3C483AABE9868469DD5629 /* IsaoTextField.swift */; };
-		0ED146A16B38CA7A54EF6D0B77CF8B74 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 451A6D68B294B930E69CCA47D7D3CCFB /* de.lproj */; };
-		15CB62A59DDCFBCB89A243FFF52FF0D2 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D084A65EC85A87FF063F76DD3DA73652 /* fr.lproj */; };
-		1AA762356365D8281B51E15F0748358D /* Pods-Winsure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9918CB185E4AAE0FAA80CE1D6B4193B /* Pods-Winsure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DDF1AB18F56C275DC92BCB16C62D4D9 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F072543868A648A932ACE4DB63C426 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		208D284A69C61E39A89492DF9E6C37AC /* CropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88E9F2823D9DA1A8DF767582D1D43D /* CropViewController-dummy.m */; };
-		27FECA49D0A446D448329F6E696A107F /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 64CE35A4BE5E7153394BD70F836ED85A /* hu.lproj */; };
-		2CF5400E4E33EAB68AAC520DB8664F12 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C19411B1CD012402639D67584D794D45 /* vi.lproj */; };
-		2E11F5EC4A30E2916B30CFE3DD1BA085 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7DF64A1F2D8151CEC0F2FDE94A1F8F7C /* ar.lproj */; };
-		2F254F9ADA9996FC3D17DF74B4C94A07 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD49C18D997484AA46D63BAEB43C6FC /* YoshikoTextField.swift */; };
-		2FC4855EE9C23B73BBEE4C11423F8920 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC91974C676CD1B9196FA77DABDC310 /* TOCropToolbar.m */; };
-		30C07F53D870FC78B292E0E4F91FEE9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */; };
-		32011D4E06DF7F7E06E462E7E7A21372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		35BB8A17B6A4EBA4DB02ACA4304C010B /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 697A2316C76AFBF5131D206C1F803978 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36DD0B1007BF3C7BFE352704D5C415F7 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AEED827D35B5D56C3C5686BE4D878 /* IQTextView.swift */; };
-		374DDD6B36B8F49693DF35E5988F028A /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E96546FC369A36B72B9247E8438E091C /* zh-Hant.lproj */; };
-		3B127AF87002B2BE617B60368C78AB29 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EEADA770474852AF0F916F702DF8B /* MadokaTextField.swift */; };
-		40C4AB6FD92661ABEA9BA86F6EB04D5C /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 001A8D6DA5EE87B079CE52DF0B55875C /* en.lproj */; };
-		4467D1C8AABFA6FC321AC7CD6F327B48 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDAFF3A9464982EF054F1DC7D539D /* IQUITextFieldView+Additions.swift */; };
-		46076A777BCB5548BC8D8D138195AE0A /* CropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A692DF5BAAE66F1A5C3B16B16D5799 /* CropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47FCE2932FA17E8F66FB0799611BC341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		4A3294F2FCFF96D15DA6FD2D5D839788 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD883B53C9F3ECA93DAB9B433D2E547E /* IQUIView+Hierarchy.swift */; };
-		4E3E6EC07A4F261D041BA0C4CA258260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */; };
-		544B146558BC502F4E07C0AED691895C /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 691E3D098C9A9D0E73DDF858024310B7 /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		545E5D1FDEBAB0939FF30A64B6B6CD85 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB872D406458FD683531E27D35CDE38 /* YokoTextField.swift */; };
-		5677C54BF14ABA45675F2DEB98AFD0D1 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FD90B14B118710001418E7424D74CD /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		575979BE9585CB480963FBD3A129CF3B /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9893002BF06A5B75686BB57FAC699E0 /* TOCropOverlayView.m */; };
-		57E28D6AE423DBE8E7F6720B79622D76 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C22198466822500026C3FE13E21AD21 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DB2CA2B5B1866FE2AEA2E56EB9046A6 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25A4FEDDB026750A59B912D18ABAAFD /* CropViewController.swift */; };
-		5FA41D322FB00ECFFF007045BDB4CDBB /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E5E79B1848B92272197B9A689E8050D4 /* ru.lproj */; };
-		633A43974DB81C2CCB1A2C3A7B1BFB37 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B0653FA74644DFC9C54CF69FE5C98 /* IQKeyboardManager.swift */; };
-		6343978FF28CF2088F19F80F77AD7EF8 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6DA3FA2D00CBDDAEF1AB44103F864 /* TOCropViewControllerTransitioning.m */; };
-		6EA6D7F3EABF8EEFF59B3892E87EE57C /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 608C4496E597192380D04334AC5CCCC7 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F596BE9FE0B26B44E526402A45FD7EF /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1A66CCD0BC022C0030C5732A3BC63D6D /* tr.lproj */; };
-		739ADBD9B4C6A6CA17931B2099F20F30 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6CA5F79B5FD890DF2A4D68F8065430AC /* nl.lproj */; };
-		7865B3A5AD97F8A1E3518E36C20E422F /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD26DFA2D44285F51BDA2817DD5243 /* TOCropViewController.m */; };
-		78C6AA5860DEB21DB36C2272E3EC03DF /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA0B5B06D9C77921FFF166A6125BC81 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B3B160F2119AAA3842CB96369289AB8 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30734851AB137404E4E274BCC9511C06 /* MinoruTextField.swift */; };
-		7C768BB23330EE84EA20A54DA1875DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		8131DF1F3857C35EAB3483544B7ACE47 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D90CE83CF58FE627EE437DF99C1CFA2 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8792219CCFD67DF6CAC33763F6363165 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECDE793EE65ED47AB6E3784FBE3DD1 /* HoshiTextField.swift */; };
-		92E9BD908B71CFA1C6EDA2FA86BF1635 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C892999ED1538382AA7848E173BFF7E /* IQKeyboardManagerSwift-dummy.m */; };
-		986EF56798DE2C7C65737AD9334E517D /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF65EA71C915A19DB7120BF31E8161 /* IQNSArray+Sort.swift */; };
-		9A055B42DE1F1074946A6F9E1D5EE706 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 605B6A6FF2AF95CF804CE51A27E0EB79 /* es.lproj */; };
-		9E1211258F6AB8323084080B859BA04B /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5183EEB011FA9D5050D32E03F177FE4 /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A380ABE3F1AF1CA7A14F9449BDC0B73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		A5A5ABA6388C976E7816AD51AC1A181A /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B31221DF27765340478C00786AEF44D6 /* TOCropScrollView.m */; };
-		AAF0D03122B364A55DC760BBD61DD819 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421239C37871A2B5FE124B30B875F69 /* TOActivityCroppedImageProvider.m */; };
-		AB395E337D7B37B7DDA5F208B58F15AF /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E50665DB12DE5416AA687E070E815 /* UIImage+CropRotate.m */; };
-		ACA53E77686212E88DBEB61EA3C810F3 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EE738FEFD3AE8A5159BBE53F3F5FCDE6 /* pt.lproj */; };
-		B178B38FCD7F99B07422484FC7FD6861 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBC537BD860F7731886E8333893C9825 /* IQKeyboardManager.bundle */; };
-		B17B8F08D11E3CA3F7091B02198059A9 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DBCFF713C989BCF25B3B06E42A6200A9 /* pl.lproj */; };
-		B2A4A7D1BD7C4D59EA0FF0A49163A387 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3DA3995444C317DC990AA529E8D60 /* IQBarButtonItem.swift */; };
-		B888C49BC46C9A62CBF03A8FAD7126F1 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40227257399069060BF12F0B2CD5445 /* IQInvocation.swift */; };
-		BA61F495C0E45AA2A88D21D51575FF02 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684650C0B499A0679D3206AC3B2C25A /* IQKeyboardReturnKeyHandler.swift */; };
-		BBA9ED83B871731D8E68F07B78932D1C /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430DB7BE58F495FD7E68C9ECC018121 /* AkiraTextField.swift */; };
-		C6D658F30D19A23647A7C1B4174A91C1 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35B6C5D2EF5E481C9A325D8CCB7C0D2 /* JiroTextField.swift */; };
-		C6F568EBB6BF37E605C36F002958505F /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 746B4AF86E1BED46421C65A4FBB3D4CF /* ja.lproj */; };
-		C8C0E20EE7419A2FA074084047A79EAA /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441712D4F3B78E126919C8228AC771B3 /* TextFieldEffects-dummy.m */; };
-		CA97B071056C56E4BA9E78352C3AC909 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2858E1C5A84CB8C47EC21C38892DF9AB /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCFD6590143643992AC50D1C1A96DE9E /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DFC97E855BCB670AC144646F750A2122 /* ms.lproj */; };
-		CF8907C1E99FBBF05F174078595B3F74 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88BF6F3F01BB10AAAB1A94D0F2D84B /* TOCroppedImageAttributes.m */; };
-		D01769302733264D4089D34FA635441E /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 660E9AA2784F8345BAF91001047734A5 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3A177F9BCAD7042B46E0A36CEDDBF8E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C046614158F5B625D99E2F1CD04FF /* IQTitleBarButtonItem.swift */; };
-		D7D49BAE6EAAD5EC2DAF370BCDE783A2 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97B398E3905F2BE638938CA372CF04A /* IQToolbar.swift */; };
-		D87172DF6F9E25124FAE4FB78C2D3037 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAABBF41CE1FD49FA2F7D7ED9F8AF59 /* TOCropView.m */; };
-		D8F4B5841E455F5170B1C2FC30863B05 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD46EF2B1C01226875A446304AA753 /* IQKeyboardManagerConstantsInternal.swift */; };
-		D998EBD05D6290474A55F4490056B4CA /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F814266BDBBE737639E293BCE4C1BD2B /* zh-Hans.lproj */; };
-		DBC8838E4F3A5272D8329B64E5CB7EB3 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 34F94E45A5495FCFFAD0348B31326823 /* it.lproj */; };
-		DC498807FB5780EDCC348D7BA6A130FC /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2BC188E18E1703725E6F3DB7BCE0F5DC /* ro.lproj */; };
-		DD420F096096C518F8E6B44583BF6521 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595261EA92F63C5657A16940BB2EE9F6 /* IQKeyboardManagerConstants.swift */; };
-		DDAC963022C8D96EBAAD2284780E0276 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7360A4D66C92B8647827322AC137CAD5 /* IQUIScrollView+Additions.swift */; };
-		DDF746CCFA4F8AE189BD15BB662DBABC /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F428563E4209CECF1A93F4B364A95F99 /* da-DK.lproj */; };
-		E3334CC660C4BD5E41C1061B9DC56FF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */; };
-		E6BFE93AC9E9CBC3871105C9F7F3BD25 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 78E32870E561ECA7951A466F3498560A /* ko.lproj */; };
-		E951ED21CEDBBF57B436E88A1FB502DA /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B055E0C5515A6188A6BC1C60995A8EF5 /* id.lproj */; };
-		EA5307F66EF7D47FEDE4B4F3C7FF57BD /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2174AAB017DF3D0D2833B8F47301BB /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECF4606EAE2DA4236E298116AD6EEC7E /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CF592DBC05FFDEA9608611FF54427F /* TextFieldEffects.swift */; };
-		EEFEF938C88CB3140DF857AF7C5BAA87 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9FA06B0A72AF23061089C11FF6D382 /* TOCropViewControllerBundle.bundle */; };
-		F0A9F7366B446EDAE4716768BCCADE6C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D5B0564135B1561FCD4068EE8ABA3 /* IQPreviousNextView.swift */; };
-		F3C631F6328808B8BEFF6CCC892D2124 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 670DB905018E0DF3861BB1B2938881D9 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7110C515BC826E2EE138124AFE4678A /* Pods-Winsure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B23BBDBE92216358C3308E752C2EC3 /* Pods-Winsure-dummy.m */; };
-		F852C0100AB6D9D2CE3E28FCA487C67E /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2217DC64971CE153BBECD5D1A50CDA4 /* IQUIViewController+Additions.swift */; };
-		FF24424B3E1F7E4DF81E47DDC0DDB0C7 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 152C5FA2C362E29A0B5380F99C425E02 /* Base.lproj */; };
+		02FB225950EEA73C12B14A3D74A2096E /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4422EDF7760AEB72D3368892665372 /* IQUIView+IQKeyboardToolbar.swift */; };
+		094CAC61CCA449A854B66DBCDDBBE65B /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915180B40DF8384B2FEE2845CA705A9A /* MinoruTextField.swift */; };
+		0995656B6D4F8DCF1CBEAFC8A0C12FB0 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE2E184DD775E7DC983481A4981FC5 /* IsaoTextField.swift */; };
+		0ED146A16B38CA7A54EF6D0B77CF8B74 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 97E6F0AEFB590F9B28F58C855C717803 /* de.lproj */; };
+		1570F5DC498147D67FF6DFB7548F8901 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423E8F0DC50D8C7750A4A6A84D87973 /* UIImageView+Calculations.swift */; };
+		15CB62A59DDCFBCB89A243FFF52FF0D2 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EE80E0D4B45931521C9CBD7BC3C7DD38 /* fr.lproj */; };
+		1B76D7C4EEE547E89EB72B0027006EE9 /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC56307D7272F2B60DF889D0B5F1CE6 /* PopupDialog+Keyboard.swift */; };
+		1DDF1AB18F56C275DC92BCB16C62D4D9 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 208211D0DE6BFDD740E50BC8324D8DAB /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E60789D3801FE2CCFCDFE262CDB2C39 /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC6FA8E34FC7B75DF625EF361DAD82 /* DynamicBlurView.swift */; };
+		208D284A69C61E39A89492DF9E6C37AC /* CropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F49D78C56119929523208D4B38A75 /* CropViewController-dummy.m */; };
+		21EA34F97A148EFF8C933AD23DB4081A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */; };
+		228BC3B53E14631AFA31434B236E6B9E /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7E9756952E14F96360A6AB91DA8B5 /* PopupDialogDefaultViewController.swift */; };
+		247263AB3D760547593EF1CC1CE758D9 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA1448D978D1A6EB8881FF1421EE782 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266357DA0C30D8717DD51A8E8428DD0E /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A486B8405DB20236F2BB0433B9B146C /* HoshiTextField.swift */; };
+		27FECA49D0A446D448329F6E696A107F /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7992FC354E1E07C2DC1480C9412859BF /* hu.lproj */; };
+		2ACA42B8813E5CA2BEB8969C900DE615 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B07053FC65017DF251DCA5659DD4EC /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B29853C2CD8A22239F8BA8AEAD7D870 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213CED3CF526C0919843260B4DEE46FF /* UIImage+Blur.swift */; };
+		2C075DF9C74FA5EFD58F6FDD9C8112B5 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E005D5C1F4C6569F35457921DDD6121C /* InteractiveTransition.swift */; };
+		2CF5400E4E33EAB68AAC520DB8664F12 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3F922DCA65DB3C8E6E3837142E37C777 /* vi.lproj */; };
+		2E11F5EC4A30E2916B30CFE3DD1BA085 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6EFFF6996F82847F947416882E4DD1E5 /* ar.lproj */; };
+		2FC4855EE9C23B73BBEE4C11423F8920 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F8C14ACF605A5A770899FC9D529BF9 /* TOCropToolbar.m */; };
+		30C07F53D870FC78B292E0E4F91FEE9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D26D9FDCF9C18646445C7237EC7C8D /* QuartzCore.framework */; };
+		30FD6CA8052FBCAD2D41DF768AEF5D49 /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB657D61EB85BAA9C6BC2DBD262BC42 /* CaptureQuality.swift */; };
+		32011D4E06DF7F7E06E462E7E7A21372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */; };
+		35BB8A17B6A4EBA4DB02ACA4304C010B /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D58EF223B8C401FA5D8AB7732D54121 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36DD0B1007BF3C7BFE352704D5C415F7 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1E16B64479581F6FD5432AE7C0E675 /* IQTextView.swift */; };
+		374DDD6B36B8F49693DF35E5988F028A /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7B85270CA45654BAF101EA5F8306A9DA /* zh-Hant.lproj */; };
+		37EC39C7D93118336AF1E98E9C7BAAA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */; };
+		40C4AB6FD92661ABEA9BA86F6EB04D5C /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5DA75639C10552CA53372B95E92A7D3F /* en.lproj */; };
+		42D825DC36DB8630C8722C02FC64A259 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277CAC3D54F65D0F3CDFC317000704D /* TransitionAnimator.swift */; };
+		4467D1C8AABFA6FC321AC7CD6F327B48 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D62162E440C1B388766B3B41C30961 /* IQUITextFieldView+Additions.swift */; };
+		46076A777BCB5548BC8D8D138195AE0A /* CropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 355BFFE8E5D04FCF995458CAD8CDDBB6 /* CropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A3294F2FCFF96D15DA6FD2D5D839788 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554DF515194E250E118D3F0005F6869 /* IQUIView+Hierarchy.swift */; };
+		4E3E6EC07A4F261D041BA0C4CA258260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFA1B08C35E48B1433EAFCA09B91593 /* CoreGraphics.framework */; };
+		4F97CC98FE9B8ADE761567F72CACF29D /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D095891ED7177A2EC295F1FBC9331B /* MadokaTextField.swift */; };
+		544B146558BC502F4E07C0AED691895C /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F26C83019EBCAB6717C135B8AA8E644D /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		554593DE4755E5BF39C765037C0111FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDB49ADF433DFF629C28F36A35A6A1 /* UIKit.framework */; };
+		5677C54BF14ABA45675F2DEB98AFD0D1 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E91B0117A7B18F1B41ED1DFD38B1171 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575979BE9585CB480963FBD3A129CF3B /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1801D2E8C883806BFAFFDB603AF76A9 /* TOCropOverlayView.m */; };
+		5D9E39419FBB711810F4207C1C6B2933 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F76F277AA039303395F82E49423B8EC /* PopupDialog-dummy.m */; };
+		5DB2CA2B5B1866FE2AEA2E56EB9046A6 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374621D292A9EA89336B6B1C11847189 /* CropViewController.swift */; };
+		5FA41D322FB00ECFFF007045BDB4CDBB /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B8714C009D569FB6BE3293C036F73 /* ru.lproj */; };
+		633A43974DB81C2CCB1A2C3A7B1BFB37 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29457F882D8351D369605B41C6E36965 /* IQKeyboardManager.swift */; };
+		6343978FF28CF2088F19F80F77AD7EF8 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2F5AD0BF461693378F175A55E77AD8 /* TOCropViewControllerTransitioning.m */; };
+		65B68A475EA0ABDD6A401925B8CFB463 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F02D9AE87F2D09D081A2C1153BEF93C /* PresentationManager.swift */; };
+		66B699FC705638D55602573440D3318A /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF3DEABED83F03363AAA0ADEDE09086 /* PopupDialogDefaultButtons.swift */; };
+		699AA6D35A7C549B72DF9DF2DA356283 /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFA3A9CE622D7CA169C4CAFA8AA825 /* BlurLayer.swift */; };
+		6A8E92748577E96A7259D8C1284780D2 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E71225868DD08F51190427A3086310 /* PopupDialogButton.swift */; };
+		6EA6D7F3EABF8EEFF59B3892E87EE57C /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = A833364D1EFA23B789FE211E0B27CE57 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F596BE9FE0B26B44E526402A45FD7EF /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C74FD1902A633581AEDBCC9A97FFCB23 /* tr.lproj */; };
+		6FB30BAC7FB32E9404A6014BA35DA66B /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35F898EEDBD52478E318E0CE469002 /* PopupDialogOverlayView.swift */; };
+		70E54D0D14B51602EC27EA7BB3601268 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38328F060AF39895E284A3811EC4A9BD /* DynamicBlurView.framework */; };
+		739ADBD9B4C6A6CA17931B2099F20F30 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D0AB6D4D44E6D7224D364113274FA391 /* nl.lproj */; };
+		7865B3A5AD97F8A1E3518E36C20E422F /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D111E762862643064E7365E88EDF7B2 /* TOCropViewController.m */; };
+		78C6AA5860DEB21DB36C2272E3EC03DF /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B16911E9E61EF3F6FCA3F4BF1C9A22 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B382D63CFAFBBC87A2C8980AF576723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */; };
+		8131DF1F3857C35EAB3483544B7ACE47 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B48CAA27D0779C109CE31AED10135A /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839A40B87D37A40C7AA29B800E333724 /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85920B9500A51553C80F4012EF5C05A1 /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B287BFEE934009D08EBDF88BD49C9D0 /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6B4A6D06F149D3F08198F90E64467A /* PopupDialogContainerView.swift */; };
+		8E554684915EBE0AB17CFF4CCEB9B1B3 /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B4AE55CA900F480E214268F66652F /* TransitionAnimations.swift */; };
+		908FBD89FADF0C8B53636D933F4CEA7F /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36D9B83A42BD95FBD2D7381FED6185 /* PopupDialogDefaultView.swift */; };
+		9263BC9D77257788EEBCACCE7F502332 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2674D72C102B9E21BA1FA427A058136E /* TextFieldEffects.swift */; };
+		92E9BD908B71CFA1C6EDA2FA86BF1635 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C462EA80B5C2F9E044858D0120878FE /* IQKeyboardManagerSwift-dummy.m */; };
+		931F6BA94CDA2C88C3E446AB7359437B /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9120214F633D4841F1A3F4C0EBF678 /* CGContext+CGImage.swift */; };
+		986EF56798DE2C7C65737AD9334E517D /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91687F752A9414E2847AC21BDC65779C /* IQNSArray+Sort.swift */; };
+		9A055B42DE1F1074946A6F9E1D5EE706 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6350D0C0C288E860D2E49377B871403D /* es.lproj */; };
+		9A0EADA9585165E1063D26C596C546F2 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24438DB533FBC0EB38EBC6CFE5DDB9BE /* DynamicBlurView-dummy.m */; };
+		9E1211258F6AB8323084080B859BA04B /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B975F275C5F409444EDAA3BB3372C466 /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A380ABE3F1AF1CA7A14F9449BDC0B73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */; };
+		A5A5ABA6388C976E7816AD51AC1A181A /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57347D983406D4D1C128160C7196F1A /* TOCropScrollView.m */; };
+		A5AAA247F25C8E2FF19A12F56438E065 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BEC70E08E6BCE2F0D17E78F0A258A6 /* TextFieldEffects-dummy.m */; };
+		AA4447FFACE42BA9724ACDF269BD10C6 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0654F04F06F38C5C55A6A97D5196EF5 /* AkiraTextField.swift */; };
+		AAF0D03122B364A55DC760BBD61DD819 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C80D70EFFF2D890484F23D0847281606 /* TOActivityCroppedImageProvider.m */; };
+		AB395E337D7B37B7DDA5F208B58F15AF /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16C82FFC648EF33E86F658371C57C8A /* UIImage+CropRotate.m */; };
+		ACA53E77686212E88DBEB61EA3C810F3 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C2F041D9ACED5C1A9F0EBE8A0A1BC553 /* pt.lproj */; };
+		AFF5E68DF0232B4E331A2A6D07A23EF6 /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6735F61B01BCBA247A53E1835D97724 /* TrackingMode.swift */; };
+		B0EBBC56A849150DCF4CACB5DA6AC44A /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C9380908EAC1A66BC14E32D46A20A7 /* CGImage+Accelerate.swift */; };
+		B178B38FCD7F99B07422484FC7FD6861 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B8938DDBC5EBEC6246D4D1B8BC90369 /* IQKeyboardManager.bundle */; };
+		B17B8F08D11E3CA3F7091B02198059A9 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1E77C8D0531B625F4E3FD9D14B450641 /* pl.lproj */; };
+		B2A4A7D1BD7C4D59EA0FF0A49163A387 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0ECEABC22D9B18FFC3698021C711BD /* IQBarButtonItem.swift */; };
+		B888C49BC46C9A62CBF03A8FAD7126F1 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4850211E1E8BAF045EC04856468E64 /* IQInvocation.swift */; };
+		BA61F495C0E45AA2A88D21D51575FF02 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695B4833323C6704AAE5A9E3767B01C /* IQKeyboardReturnKeyHandler.swift */; };
+		C15BFF16B36DD546AED45CB2284D9890 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7153ACDD95FCE5CCDFF8706292A02D4C /* PopupDialog.swift */; };
+		C608CD5014667D549210559A33CA1892 /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7DED0078543050DC7CFA6321CE0EFE /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F568EBB6BF37E605C36F002958505F /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AA9AA7D79FB82DE48BF1A368D5545640 /* ja.lproj */; };
+		CA97B071056C56E4BA9E78352C3AC909 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBE0CA4E6CEC4E9D1E9727B2585AD7C /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCFD6590143643992AC50D1C1A96DE9E /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8F7C1E3EECC54A4F066BEA637989441F /* ms.lproj */; };
+		CF8907C1E99FBBF05F174078595B3F74 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E198E4D6856FF83DD33C0C23C3B49A /* TOCroppedImageAttributes.m */; };
+		D01769302733264D4089D34FA635441E /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F266C8CF3E0688A3A97785EC6A2007 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D7EA20567E73915EA0521A3ACFF64F /* Pods-Winsure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9918CB185E4AAE0FAA80CE1D6B4193B /* Pods-Winsure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A177F9BCAD7042B46E0A36CEDDBF8E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A146F53640178CAFC52B2F12532223 /* IQTitleBarButtonItem.swift */; };
+		D6DAABD94F2AA32A26E0FBA0FF02BBDA /* Pods-Winsure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B23BBDBE92216358C3308E752C2EC3 /* Pods-Winsure-dummy.m */; };
+		D7CCF84F0F0D1FC2D050CA0F3EAD4E32 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8FBC811A33C7DBE47970438868528D /* Accelerate.framework */; };
+		D7D49BAE6EAAD5EC2DAF370BCDE783A2 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3524AB0553FBF3B3051AF3A97E89E /* IQToolbar.swift */; };
+		D87172DF6F9E25124FAE4FB78C2D3037 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F82D76A6AA5B97705A06F9C569D8EF /* TOCropView.m */; };
+		D8F4B5841E455F5170B1C2FC30863B05 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35890A844E32159E25EFAF1B62FD3332 /* IQKeyboardManagerConstantsInternal.swift */; };
+		D998EBD05D6290474A55F4490056B4CA /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B62A15FEE5AD7AE983A19BC5161B67E8 /* zh-Hans.lproj */; };
+		DBC8838E4F3A5272D8329B64E5CB7EB3 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D26C84CD1EF568D471CE2B02EF73D2E1 /* it.lproj */; };
+		DC498807FB5780EDCC348D7BA6A130FC /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A63EC3F87FB5FD0B5A68E718E8FB5BEA /* ro.lproj */; };
+		DD420F096096C518F8E6B44583BF6521 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123D798FDB556BB4EF04489EC00BA19 /* IQKeyboardManagerConstants.swift */; };
+		DD6C6370D42BC4431D71BD31CD93D239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */; };
+		DDAC963022C8D96EBAAD2284780E0276 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F71D35BB613857919D5F0EF5318524 /* IQUIScrollView+Additions.swift */; };
+		DDF746CCFA4F8AE189BD15BB662DBABC /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7F10FE5BABC8F7C0131CB7C77A3B9C28 /* da-DK.lproj */; };
+		E3334CC660C4BD5E41C1061B9DC56FF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDB49ADF433DFF629C28F36A35A6A1 /* UIKit.framework */; };
+		E389DF2B15AA495D74EBD8549032296A /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F6B8E7CE5AF53E50A7F5D51309EDF /* JiroTextField.swift */; };
+		E60B6DA70F5F728D94F34460820D1A23 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F94DE9325C4E9927D8EB8315EEDA0 /* YoshikoTextField.swift */; };
+		E6BFE93AC9E9CBC3871105C9F7F3BD25 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 433615D050EE54A03678E598EFAA9C29 /* ko.lproj */; };
+		E951ED21CEDBBF57B436E88A1FB502DA /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9AB82CD55AA18F6603BC700640E314DA /* id.lproj */; };
+		EA5307F66EF7D47FEDE4B4F3C7FF57BD /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 647FC87FFA28A149B918E9C9E25E3663 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB91D53FF90B1D4135B83AF22E8DF44C /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07748A8D8BD0500A28055DD309D6BD0A /* YokoTextField.swift */; };
+		EEFEF938C88CB3140DF857AF7C5BAA87 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 134BFF4450FCF4E3F50C580BBD437C34 /* TOCropViewControllerBundle.bundle */; };
+		F0A9F7366B446EDAE4716768BCCADE6C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F028627F850D558124E7F9961FCEE3 /* IQPreviousNextView.swift */; };
+		F29E4086279F8938E0856F90D55096FB /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B18B0A6813BE1951974ECFC0572CED /* UIView+Animations.swift */; };
+		F3C631F6328808B8BEFF6CCC892D2124 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EB32D39674969DF6BAF8FBDB9B5685F4 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4C546DF59AB1B27DF915110E27A80AD /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ADFEED8921BB08B8DD1A9B87910A6C /* PresentationController.swift */; };
+		F852C0100AB6D9D2CE3E28FCA487C67E /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B4C077EC9DB36B85D2646855942477 /* IQUIViewController+Additions.swift */; };
+		FC13752EE79306A4623FB1ACDE86A16F /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40324FCDDBDEA52ED0FDF3E9BBDE812C /* UIViewController+Visibility.swift */; };
+		FE64AE9422B58A1F75B5CE2579465FFC /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097A933F0AACD8E4FE8F9FEEE70F10D8 /* KaedeTextField.swift */; };
+		FF24424B3E1F7E4DF81E47DDC0DDB0C7 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B9827E2FB8CC5AEABC977C6E81BD9B4F /* Base.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A71E68AF2B21CBF7DA72F78D1E60BD6 /* PBXContainerItemProxy */ = {
+		1F55A861B7A871F3DA5C1723D7E26F17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 31353AC9D535EB02B93F08AF04CD9E2C;
-			remoteInfo = TextFieldEffects;
+			remoteGlobalIDString = 259FA497B621B18FB2921DA18AA46AC2;
+			remoteInfo = DynamicBlurView;
 		};
-		5B271BF28E98484D848DD244A39D209E /* PBXContainerItemProxy */ = {
+		264BCF226DE98078DB8887BCDC1E768B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59B34511F05B57A3858C8B2A04A9D15;
+			remoteInfo = CropViewController;
+		};
+		4DC11D257DFE7BA8DAA29FA37525CDF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EFF87187B46551C36797F2B899C54212;
 			remoteInfo = IQKeyboardManagerSwift;
+		};
+		5BF28BC4ED45488BF53AA9C2051E9410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0445CB5F31DE0CB6C34C87F53A5B4A09;
+			remoteInfo = PopupDialog;
+		};
+		AF1717AC790F8AB96A13A7100D61A206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B3BB0B32FACFE5C1A030A55F2A6D49;
+			remoteInfo = TextFieldEffects;
 		};
 		D88E77966AE52F35E4B0CA1DB5D0361C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -117,127 +171,175 @@
 			remoteGlobalIDString = F8690E9C865E9F085058559585223B97;
 			remoteInfo = "CropViewController-TOCropViewControllerBundle";
 		};
-		FB40308DF8F5CAF19081693C47095E6E /* PBXContainerItemProxy */ = {
+		E40465617F81242D532DAF6A587BA4D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C59B34511F05B57A3858C8B2A04A9D15;
-			remoteInfo = CropViewController;
+			remoteGlobalIDString = 259FA497B621B18FB2921DA18AA46AC2;
+			remoteInfo = DynamicBlurView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001A8D6DA5EE87B079CE52DF0B55875C /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/Resources/en.lproj"; sourceTree = "<group>"; };
+		03DA8C675DF5B6A00B5773C4CC64F536 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		0423E8F0DC50D8C7750A4A6A84D87973 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		05F266C8CF3E0688A3A97785EC6A2007 /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = "Objective-C/TOCropViewController/Constants/TOCropViewConstants.h"; sourceTree = "<group>"; };
+		07748A8D8BD0500A28055DD309D6BD0A /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		07AD6C239D7392F7F29EA2877278BCCB /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		097A933F0AACD8E4FE8F9FEEE70F10D8 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
 		0A6B2289629349734A7974734729BAA5 /* Pods-Winsure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Winsure.debug.xcconfig"; sourceTree = "<group>"; };
-		1131D4CD9FD0826ED16B35458A456E59 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		1421239C37871A2B5FE124B30B875F69 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
+		0C0B8714C009D569FB6BE3293C036F73 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "Objective-C/TOCropViewController/Resources/ru.lproj"; sourceTree = "<group>"; };
+		0D58EF223B8C401FA5D8AB7732D54121 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
+		13277DC6773FD3272CE239E7847F411D /* DynamicBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.xcconfig; sourceTree = "<group>"; };
+		134BFF4450FCF4E3F50C580BBD437C34 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = "CropViewController-TOCropViewControllerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149F063F88669BCA6D5E874BAD1770D0 /* Pods-Winsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Winsure.release.xcconfig"; sourceTree = "<group>"; };
-		152C5FA2C362E29A0B5380F99C425E02 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
-		17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		1A66CCD0BC022C0030C5732A3BC63D6D /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
-		1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1C22198466822500026C3FE13E21AD21 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		1C8134E9976BF0D1C5ADB2400AA9E39F /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
-		27FF65EA71C915A19DB7120BF31E8161 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
-		2858E1C5A84CB8C47EC21C38892DF9AB /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
+		15C9380908EAC1A66BC14E32D46A20A7 /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		179D251AB0A6D11AAAD6AD68675139CD /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicBlurView.framework; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B16911E9E61EF3F6FCA3F4BF1C9A22 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
+		18F400B510934C2244968DB427C69263 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0ECEABC22D9B18FFC3698021C711BD /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		1CF3DEABED83F03363AAA0ADEDE09086 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		1E77C8D0531B625F4E3FD9D14B450641 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
+		208211D0DE6BFDD740E50BC8324D8DAB /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		20BFA3A9CE622D7CA169C4CAFA8AA825 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
+		20E198E4D6856FF83DD33C0C23C3B49A /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
+		213CED3CF526C0919843260B4DEE46FF /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
+		2277CAC3D54F65D0F3CDFC317000704D /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		22D62162E440C1B388766B3B41C30961 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		24438DB533FBC0EB38EBC6CFE5DDB9BE /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
+		2674D72C102B9E21BA1FA427A058136E /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		26B237880C41811F6DA9F76D9AB2D6E8 /* CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropViewController-Info.plist"; sourceTree = "<group>"; };
+		27059CD9A671BC92A4FF19891AE7CF28 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
+		29457F882D8351D369605B41C6E36965 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
 		2A6A0578186C79027569042262CFF6C1 /* Pods-Winsure-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Winsure-Info.plist"; sourceTree = "<group>"; };
-		2BC188E18E1703725E6F3DB7BCE0F5DC /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
-		2DFC8F4968643F1E8B52F4447A65AF2D /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
-		2E1C046614158F5B625D99E2F1CD04FF /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
-		30734851AB137404E4E274BCC9511C06 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
-		30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		31E07BBCBCEFF8F22A5DE5E19350729D /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
-		3430DB7BE58F495FD7E68C9ECC018121 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		347E43E7D6D13FAA5D359913E2FB06AE /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
-		34F94E45A5495FCFFAD0348B31326823 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
-		3B88E9F2823D9DA1A8DF767582D1D43D /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
-		3EA3DA3995444C317DC990AA529E8D60 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
-		4357E2BEEAD65191E0D2BD862692A5CB /* Pods_Winsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Winsure.framework; path = "Pods-Winsure.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		441712D4F3B78E126919C8228AC771B3 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		451A6D68B294B930E69CCA47D7D3CCFB /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
-		45ECDE793EE65ED47AB6E3784FBE3DD1 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
-		466EEADA770474852AF0F916F702DF8B /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4D80EAD3D155E9B78A967A0766E619EC /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F2174AAB017DF3D0D2833B8F47301BB /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
-		4F88BF6F3F01BB10AAAB1A94D0F2D84B /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
-		526B0653FA74644DFC9C54CF69FE5C98 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
-		5684650C0B499A0679D3206AC3B2C25A /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
-		57FD90B14B118710001418E7424D74CD /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
-		595261EA92F63C5657A16940BB2EE9F6 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
-		5FCD26DFA2D44285F51BDA2817DD5243 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
-		605B6A6FF2AF95CF804CE51A27E0EB79 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/Resources/es.lproj"; sourceTree = "<group>"; };
-		608C4496E597192380D04334AC5CCCC7 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
-		60BD46EF2B1C01226875A446304AA753 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
-		62A692DF5BAAE66F1A5C3B16B16D5799 /* CropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-umbrella.h"; sourceTree = "<group>"; };
-		64CE35A4BE5E7153394BD70F836ED85A /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = "Objective-C/TOCropViewController/Resources/hu.lproj"; sourceTree = "<group>"; };
-		660E9AA2784F8345BAF91001047734A5 /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = "Objective-C/TOCropViewController/Constants/TOCropViewConstants.h"; sourceTree = "<group>"; };
-		670DB905018E0DF3861BB1B2938881D9 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
-		691E3D098C9A9D0E73DDF858024310B7 /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
-		697A2316C76AFBF5131D206C1F803978 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
-		6BF6DA3FA2D00CBDDAEF1AB44103F864 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
-		6CA5F79B5FD890DF2A4D68F8065430AC /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
-		6CC91974C676CD1B9196FA77DABDC310 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
-		6D90CE83CF58FE627EE437DF99C1CFA2 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
-		6E6D5B0564135B1561FCD4068EE8ABA3 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
-		7360A4D66C92B8647827322AC137CAD5 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
-		746B4AF86E1BED46421C65A4FBB3D4CF /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
-		78E32870E561ECA7951A466F3498560A /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/Resources/ko.lproj"; sourceTree = "<group>"; };
-		7C892999ED1538382AA7848E173BFF7E /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
-		7DF64A1F2D8151CEC0F2FDE94A1F8F7C /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
+		2BFFD0191F844552F12DD8BF664994EE /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		2C462EA80B5C2F9E044858D0120878FE /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		2C6B4A6D06F149D3F08198F90E64467A /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		2F2F5AD0BF461693378F175A55E77AD8 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
+		2F76F277AA039303395F82E49423B8EC /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		355BFFE8E5D04FCF995458CAD8CDDBB6 /* CropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-umbrella.h"; sourceTree = "<group>"; };
+		35890A844E32159E25EFAF1B62FD3332 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		3695B4833323C6704AAE5A9E3767B01C /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		374621D292A9EA89336B6B1C11847189 /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
+		37ADFEED8921BB08B8DD1A9B87910A6C /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		37BA36ABAE11A4C7B4B6A3B0CB576400 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		38328F060AF39895E284A3811EC4A9BD /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEC6FA8E34FC7B75DF625EF361DAD82 /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
+		3F9120214F633D4841F1A3F4C0EBF678 /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		3F922DCA65DB3C8E6E3837142E37C777 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = "Objective-C/TOCropViewController/Resources/vi.lproj"; sourceTree = "<group>"; };
+		40324FCDDBDEA52ED0FDF3E9BBDE812C /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		40F82D76A6AA5B97705A06F9C569D8EF /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
+		433615D050EE54A03678E598EFAA9C29 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/Resources/ko.lproj"; sourceTree = "<group>"; };
+		45D095891ED7177A2EC295F1FBC9331B /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		466DD4FD34BB834F038D6AD6F1B816E0 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB8B2CF194FEC417066C00F7B141EBF /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8938DDBC5EBEC6246D4D1B8BC90369 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		4D3808162D9C7DF716574E7F049BBCC5 /* DynamicBlurView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicBlurView-Info.plist"; sourceTree = "<group>"; };
+		4DBE0CA4E6CEC4E9D1E9727B2585AD7C /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
+		4DFE2E184DD775E7DC983481A4981FC5 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		4F382F127AEE01DD6CCD6D6CAA35A884 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist"; sourceTree = "<group>"; };
+		4FCDF45CEAACFBC894AFC1F54DF30291 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		53F028627F850D558124E7F9961FCEE3 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		5554DF515194E250E118D3F0005F6869 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		59E71225868DD08F51190427A3086310 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		5AD3524AB0553FBF3B3051AF3A97E89E /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		5D4850211E1E8BAF045EC04856468E64 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		5DA75639C10552CA53372B95E92A7D3F /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/Resources/en.lproj"; sourceTree = "<group>"; };
+		6350D0C0C288E860D2E49377B871403D /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/Resources/es.lproj"; sourceTree = "<group>"; };
+		647FC87FFA28A149B918E9C9E25E3663 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
+		67A146F53640178CAFC52B2F12532223 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		68DB6118B11E82D2E94A3AC410F373EB /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8FBC811A33C7DBE47970438868528D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		6AED0E917164250F2036BB585862F658 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		6CB657D61EB85BAA9C6BC2DBD262BC42 /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
+		6EEC762D2F88095DF0FB5E5AD46D1043 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		6EFFF6996F82847F947416882E4DD1E5 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
+		7153ACDD95FCE5CCDFF8706292A02D4C /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		750F94DE9325C4E9927D8EB8315EEDA0 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		7992FC354E1E07C2DC1480C9412859BF /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = "Objective-C/TOCropViewController/Resources/hu.lproj"; sourceTree = "<group>"; };
+		7A486B8405DB20236F2BB0433B9B146C /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		7B85270CA45654BAF101EA5F8306A9DA /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		7D35F898EEDBD52478E318E0CE469002 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		7D94B0F82CA4ABFC8200105BA0981E1F /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
+		7F10FE5BABC8F7C0131CB7C77A3B9C28 /* da-DK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "da-DK.lproj"; path = "Objective-C/TOCropViewController/Resources/da-DK.lproj"; sourceTree = "<group>"; };
 		806598B52F90C5740361217BCB24D215 /* Pods-Winsure-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Winsure-acknowledgements.plist"; sourceTree = "<group>"; };
+		85920B9500A51553C80F4012EF5C05A1 /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
 		870D36C026C0D236A08D76AC0D3AD13A /* Pods-Winsure-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Winsure-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A576484C44A4AA8BF889C41FA8D237C /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		8F2E50665DB12DE5416AA687E070E815 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.m"; sourceTree = "<group>"; };
-		9B9FA06B0A72AF23061089C11FF6D382 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = "CropViewController-TOCropViewControllerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D111E762862643064E7365E88EDF7B2 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
+		8F02D9AE87F2D09D081A2C1153BEF93C /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		8F7C1E3EECC54A4F066BEA637989441F /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
+		915180B40DF8384B2FEE2845CA705A9A /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		91687F752A9414E2847AC21BDC65779C /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		9429C7A0EEA8F62B6F6592956FEE2B35 /* CropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-prefix.pch"; sourceTree = "<group>"; };
+		943EE574B11E539660A6A724886778B5 /* Pods_Winsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Winsure.framework; path = "Pods-Winsure.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B4AE55CA900F480E214268F66652F /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		97E6F0AEFB590F9B28F58C855C717803 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
+		98AF67E18EEB911C6AF0393A1215B707 /* PopupDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopupDialog-Info.plist"; sourceTree = "<group>"; };
+		98CDB49ADF433DFF629C28F36A35A6A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		99B18B0A6813BE1951974ECFC0572CED /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		9A5F6B8E7CE5AF53E50A7F5D51309EDF /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		9AB82CD55AA18F6603BC700640E314DA /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
+		9C8F49D78C56119929523208D4B38A75 /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
+		9D1E16B64479581F6FD5432AE7C0E675 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAABBF41CE1FD49FA2F7D7ED9F8AF59 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
-		A7F072543868A648A932ACE4DB63C426 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
-		A97B398E3905F2BE638938CA372CF04A /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
-		A9893002BF06A5B75686BB57FAC699E0 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
-		AA16342D1251B27688925328B18F3737 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist"; sourceTree = "<group>"; };
-		AB5FC9C15B3C483AABE9868469DD5629 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		ACAFDAFF3A9464982EF054F1DC7D539D /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
-		AD883B53C9F3ECA93DAB9B433D2E547E /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
-		ADB872D406458FD683531E27D35CDE38 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		B055E0C5515A6188A6BC1C60995A8EF5 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
-		B31221DF27765340478C00786AEF44D6 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
-		BFC9E0380CA8B62766A162AA72C12C78 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		C19411B1CD012402639D67584D794D45 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = "Objective-C/TOCropViewController/Resources/vi.lproj"; sourceTree = "<group>"; };
-		C2217DC64971CE153BBECD5D1A50CDA4 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		9E91B0117A7B18F1B41ED1DFD38B1171 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		A2B4C077EC9DB36B85D2646855942477 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		A3E7E9756952E14F96360A6AB91DA8B5 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		A4BEC70E08E6BCE2F0D17E78F0A258A6 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		A63EC3F87FB5FD0B5A68E718E8FB5BEA /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
+		A833364D1EFA23B789FE211E0B27CE57 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
+		AA9AA7D79FB82DE48BF1A368D5545640 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
+		AD7DED0078543050DC7CFA6321CE0EFE /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		B4D26D9FDCF9C18646445C7237EC7C8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B62A15FEE5AD7AE983A19BC5161B67E8 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		B6735F61B01BCBA247A53E1835D97724 /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
+		B975F275C5F409444EDAA3BB3372C466 /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
+		B9827E2FB8CC5AEABC977C6E81BD9B4F /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
+		BFA1448D978D1A6EB8881FF1421EE782 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		C123D798FDB556BB4EF04489EC00BA19 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		C2F041D9ACED5C1A9F0EBE8A0A1BC553 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "Objective-C/TOCropViewController/Resources/pt.lproj"; sourceTree = "<group>"; };
+		C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C2F71D35BB613857919D5F0EF5318524 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
 		C421FD4AEB820BDED280361380934F44 /* Pods-Winsure-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Winsure-frameworks.sh"; sourceTree = "<group>"; };
-		C5183EEB011FA9D5050D32E03F177FE4 /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
-		CAECEC1D9F75CA679F27DED128130817 /* CropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-prefix.pch"; sourceTree = "<group>"; };
+		C4F8C14ACF605A5A770899FC9D529BF9 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
+		C74FD1902A633581AEDBCC9A97FFCB23 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
+		C80D70EFFF2D890484F23D0847281606 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
 		CBB07D58B1F8F2173E79F18C749A5E68 /* Pods-Winsure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Winsure.modulemap"; sourceTree = "<group>"; };
-		CBC537BD860F7731886E8333893C9825 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		CFD49C18D997484AA46D63BAEB43C6FC /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		D084A65EC85A87FF063F76DD3DA73652 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
-		D425F32FDE60D2B53BC966B54E049C67 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
-		D50012680B6510BA91EBA43A28E224F5 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D88615D5A1BDC8FF169EF8778A437124 /* CropViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.xcconfig; sourceTree = "<group>"; };
+		CEC56307D7272F2B60DF889D0B5F1CE6 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		CF84A2D0F50BFC7A90FC5F9695A788BC /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		D0654F04F06F38C5C55A6A97D5196EF5 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		D0AB6D4D44E6D7224D364113274FA391 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
+		D1801D2E8C883806BFAFFDB603AF76A9 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
+		D26C84CD1EF568D471CE2B02EF73D2E1 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
+		D6B48CAA27D0779C109CE31AED10135A /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
 		D9918CB185E4AAE0FAA80CE1D6B4193B /* Pods-Winsure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Winsure-umbrella.h"; sourceTree = "<group>"; };
-		DBCFF713C989BCF25B3B06E42A6200A9 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
-		DCA0B5B06D9C77921FFF166A6125BC81 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
-		DFC97E855BCB670AC144646F750A2122 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
-		E30A20FF0D3B1A8D8A0FCEE66B4E0BA8 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
-		E35B6C5D2EF5E481C9A325D8CCB7C0D2 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		E3CF592DBC05FFDEA9608611FF54427F /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
-		E5E79B1848B92272197B9A689E8050D4 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "Objective-C/TOCropViewController/Resources/ru.lproj"; sourceTree = "<group>"; };
-		E64AEED827D35B5D56C3C5686BE4D878 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		D9B07053FC65017DF251DCA5659DD4EC /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		DB4422EDF7760AEB72D3368892665372 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		DD36D9B83A42BD95FBD2D7381FED6185 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		DE372453036977F02DF74A6E64F1C9AB /* CropViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.xcconfig; sourceTree = "<group>"; };
+		E005D5C1F4C6569F35457921DDD6121C /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		E16C82FFC648EF33E86F658371C57C8A /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		E24337973DC1CABAF9B6DB009C230C3A /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
+		E441D0A08451422A966FEBC5948ABD99 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
 		E6B23BBDBE92216358C3308E752C2EC3 /* Pods-Winsure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Winsure-dummy.m"; sourceTree = "<group>"; };
-		E73A979306EDF3D784E0FA3E19083BA4 /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
-		E96546FC369A36B72B9247E8438E091C /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
-		E9B0CC6A0C25786E1E42A1EDA37B6E5B /* CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropViewController-Info.plist"; sourceTree = "<group>"; };
-		EE738FEFD3AE8A5159BBE53F3F5FCDE6 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "Objective-C/TOCropViewController/Resources/pt.lproj"; sourceTree = "<group>"; };
-		F25A4FEDDB026750A59B912D18ABAAFD /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
-		F37B0EA97491BED7EF00AAC22ED51E11 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40227257399069060BF12F0B2CD5445 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
-		F428563E4209CECF1A93F4B364A95F99 /* da-DK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "da-DK.lproj"; path = "Objective-C/TOCropViewController/Resources/da-DK.lproj"; sourceTree = "<group>"; };
-		F814266BDBBE737639E293BCE4C1BD2B /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
-		FF8C5DC4DCB835070FB2147A7672F60F /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		EB32D39674969DF6BAF8FBDB9B5685F4 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
+		EBAB1C24741135AB225CE6D2C890E51C /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
+		EDFA1B08C35E48B1433EAFCA09B91593 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EE80E0D4B45931521C9CBD7BC3C7DD38 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
+		F26C83019EBCAB6717C135B8AA8E644D /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
+		F3D33F06BC0F296017D9287C7B156C68 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		F57347D983406D4D1C128160C7196F1A /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		185C2C33046A18108D5A413BC4BA5AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EA34F97A148EFF8C933AD23DB4081A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BC904EE57E618F97026D50ACAB57A18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,19 +348,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96AFDDAD7E534D91ECCA07D51ABA1CB5 /* Frameworks */ = {
+		66E368F5374DBCE695CA52493C9EB9C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47FCE2932FA17E8F66FB0799611BC341 /* Foundation.framework in Frameworks */,
+				DD6C6370D42BC4431D71BD31CD93D239 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2B0A037BCAD32CB152B7DD70FB13783 /* Frameworks */ = {
+		6F954DBE88DF5B843F07784A61AB0AAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C768BB23330EE84EA20A54DA1875DE1 /* Foundation.framework in Frameworks */,
+				D7CCF84F0F0D1FC2D050CA0F3EAD4E32 /* Accelerate.framework in Frameworks */,
+				37EC39C7D93118336AF1E98E9C7BAAA2 /* Foundation.framework in Frameworks */,
+				554593DE4755E5BF39C765037C0111FE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,134 +384,237 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC2BE33AF492A165EB000CA3901D23C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E54D0D14B51602EC27EA7BB3601268 /* DynamicBlurView.framework in Frameworks */,
+				7B382D63CFAFBBC87A2C8980AF576723 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15D440054AE4A2850C113C1022FF457A /* Pods */ = {
+		0D574DFD785D839BA290F8DBBFCEF77E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FE088D7188D868F0DD29369BD84D96D1 /* CropViewController */,
-				67F2BCC4F8E7F6C32929E68F8F50D8CA /* IQKeyboardManagerSwift */,
-				2D2C13EF2B43F4D0EB08042596EC9F1C /* TextFieldEffects */,
+				7D94B0F82CA4ABFC8200105BA0981E1F /* DynamicBlurView.modulemap */,
+				13277DC6773FD3272CE239E7847F411D /* DynamicBlurView.xcconfig */,
+				24438DB533FBC0EB38EBC6CFE5DDB9BE /* DynamicBlurView-dummy.m */,
+				4D3808162D9C7DF716574E7F049BBCC5 /* DynamicBlurView-Info.plist */,
+				27059CD9A671BC92A4FF19891AE7CF28 /* DynamicBlurView-prefix.pch */,
+				85920B9500A51553C80F4012EF5C05A1 /* DynamicBlurView-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/DynamicBlurView";
 			sourceTree = "<group>";
 		};
-		2D2C13EF2B43F4D0EB08042596EC9F1C /* TextFieldEffects */ = {
+		15506685CECB7847808BCEDCFCCC8BD0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3430DB7BE58F495FD7E68C9ECC018121 /* AkiraTextField.swift */,
-				45ECDE793EE65ED47AB6E3784FBE3DD1 /* HoshiTextField.swift */,
-				AB5FC9C15B3C483AABE9868469DD5629 /* IsaoTextField.swift */,
-				E35B6C5D2EF5E481C9A325D8CCB7C0D2 /* JiroTextField.swift */,
-				8A576484C44A4AA8BF889C41FA8D237C /* KaedeTextField.swift */,
-				466EEADA770474852AF0F916F702DF8B /* MadokaTextField.swift */,
-				30734851AB137404E4E274BCC9511C06 /* MinoruTextField.swift */,
-				E3CF592DBC05FFDEA9608611FF54427F /* TextFieldEffects.swift */,
-				ADB872D406458FD683531E27D35CDE38 /* YokoTextField.swift */,
-				CFD49C18D997484AA46D63BAEB43C6FC /* YoshikoTextField.swift */,
-				A4B3C6B17F2AD506DCDAF5C1B156352E /* Support Files */,
-			);
-			name = TextFieldEffects;
-			path = TextFieldEffects;
-			sourceTree = "<group>";
-		};
-		67F2BCC4F8E7F6C32929E68F8F50D8CA /* IQKeyboardManagerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				3EA3DA3995444C317DC990AA529E8D60 /* IQBarButtonItem.swift */,
-				F40227257399069060BF12F0B2CD5445 /* IQInvocation.swift */,
-				526B0653FA74644DFC9C54CF69FE5C98 /* IQKeyboardManager.swift */,
-				595261EA92F63C5657A16940BB2EE9F6 /* IQKeyboardManagerConstants.swift */,
-				60BD46EF2B1C01226875A446304AA753 /* IQKeyboardManagerConstantsInternal.swift */,
-				5684650C0B499A0679D3206AC3B2C25A /* IQKeyboardReturnKeyHandler.swift */,
-				27FF65EA71C915A19DB7120BF31E8161 /* IQNSArray+Sort.swift */,
-				6E6D5B0564135B1561FCD4068EE8ABA3 /* IQPreviousNextView.swift */,
-				E64AEED827D35B5D56C3C5686BE4D878 /* IQTextView.swift */,
-				2E1C046614158F5B625D99E2F1CD04FF /* IQTitleBarButtonItem.swift */,
-				A97B398E3905F2BE638938CA372CF04A /* IQToolbar.swift */,
-				7360A4D66C92B8647827322AC137CAD5 /* IQUIScrollView+Additions.swift */,
-				ACAFDAFF3A9464982EF054F1DC7D539D /* IQUITextFieldView+Additions.swift */,
-				AD883B53C9F3ECA93DAB9B433D2E547E /* IQUIView+Hierarchy.swift */,
-				FF8C5DC4DCB835070FB2147A7672F60F /* IQUIView+IQKeyboardToolbar.swift */,
-				C2217DC64971CE153BBECD5D1A50CDA4 /* IQUIViewController+Additions.swift */,
-				EEDEF0EAED107AE5AA8DD5DC0A6D5275 /* Resources */,
-				9301E21BEF82AD97A9855F6C2B2D23F8 /* Support Files */,
-			);
-			name = IQKeyboardManagerSwift;
-			path = IQKeyboardManagerSwift;
-			sourceTree = "<group>";
-		};
-		7819344734667785568593848FC18DF8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7DF64A1F2D8151CEC0F2FDE94A1F8F7C /* ar.lproj */,
-				152C5FA2C362E29A0B5380F99C425E02 /* Base.lproj */,
-				F428563E4209CECF1A93F4B364A95F99 /* da-DK.lproj */,
-				451A6D68B294B930E69CCA47D7D3CCFB /* de.lproj */,
-				001A8D6DA5EE87B079CE52DF0B55875C /* en.lproj */,
-				605B6A6FF2AF95CF804CE51A27E0EB79 /* es.lproj */,
-				D084A65EC85A87FF063F76DD3DA73652 /* fr.lproj */,
-				64CE35A4BE5E7153394BD70F836ED85A /* hu.lproj */,
-				B055E0C5515A6188A6BC1C60995A8EF5 /* id.lproj */,
-				34F94E45A5495FCFFAD0348B31326823 /* it.lproj */,
-				746B4AF86E1BED46421C65A4FBB3D4CF /* ja.lproj */,
-				78E32870E561ECA7951A466F3498560A /* ko.lproj */,
-				DFC97E855BCB670AC144646F750A2122 /* ms.lproj */,
-				6CA5F79B5FD890DF2A4D68F8065430AC /* nl.lproj */,
-				DBCFF713C989BCF25B3B06E42A6200A9 /* pl.lproj */,
-				EE738FEFD3AE8A5159BBE53F3F5FCDE6 /* pt.lproj */,
-				2BC188E18E1703725E6F3DB7BCE0F5DC /* ro.lproj */,
-				E5E79B1848B92272197B9A689E8050D4 /* ru.lproj */,
-				1A66CCD0BC022C0030C5732A3BC63D6D /* tr.lproj */,
-				C19411B1CD012402639D67584D794D45 /* vi.lproj */,
-				F814266BDBBE737639E293BCE4C1BD2B /* zh-Hans.lproj */,
-				E96546FC369A36B72B9247E8438E091C /* zh-Hant.lproj */,
+				4B8938DDBC5EBEC6246D4D1B8BC90369 /* IQKeyboardManager.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9301E21BEF82AD97A9855F6C2B2D23F8 /* Support Files */ = {
+		19A569CC7519DBE9F8F179B01D5A6D2F /* DynamicBlurView */ = {
 			isa = PBXGroup;
 			children = (
-				31E07BBCBCEFF8F22A5DE5E19350729D /* IQKeyboardManagerSwift.modulemap */,
-				1C8134E9976BF0D1C5ADB2400AA9E39F /* IQKeyboardManagerSwift.xcconfig */,
-				7C892999ED1538382AA7848E173BFF7E /* IQKeyboardManagerSwift-dummy.m */,
-				347E43E7D6D13FAA5D359913E2FB06AE /* IQKeyboardManagerSwift-Info.plist */,
-				D425F32FDE60D2B53BC966B54E049C67 /* IQKeyboardManagerSwift-prefix.pch */,
-				57FD90B14B118710001418E7424D74CD /* IQKeyboardManagerSwift-umbrella.h */,
+				20BFA3A9CE622D7CA169C4CAFA8AA825 /* BlurLayer.swift */,
+				6CB657D61EB85BAA9C6BC2DBD262BC42 /* CaptureQuality.swift */,
+				3F9120214F633D4841F1A3F4C0EBF678 /* CGContext+CGImage.swift */,
+				15C9380908EAC1A66BC14E32D46A20A7 /* CGImage+Accelerate.swift */,
+				AD7DED0078543050DC7CFA6321CE0EFE /* DynamicBlurView.h */,
+				3BEC6FA8E34FC7B75DF625EF361DAD82 /* DynamicBlurView.swift */,
+				B6735F61B01BCBA247A53E1835D97724 /* TrackingMode.swift */,
+				213CED3CF526C0919843260B4DEE46FF /* UIImage+Blur.swift */,
+				0D574DFD785D839BA290F8DBBFCEF77E /* Support Files */,
+			);
+			name = DynamicBlurView;
+			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		1F619B7B6301863EC811F3CFC1B5A3BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D33F06BC0F296017D9287C7B156C68 /* IQKeyboardManagerSwift.modulemap */,
+				6AED0E917164250F2036BB585862F658 /* IQKeyboardManagerSwift.xcconfig */,
+				2C462EA80B5C2F9E044858D0120878FE /* IQKeyboardManagerSwift-dummy.m */,
+				03DA8C675DF5B6A00B5773C4CC64F536 /* IQKeyboardManagerSwift-Info.plist */,
+				4FCDF45CEAACFBC894AFC1F54DF30291 /* IQKeyboardManagerSwift-prefix.pch */,
+				9E91B0117A7B18F1B41ED1DFD38B1171 /* IQKeyboardManagerSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/IQKeyboardManagerSwift";
 			sourceTree = "<group>";
 		};
-		9C6F6B3D5B6FBA2C5776036FCCEA962F /* Support Files */ = {
+		31B611EBA12F5A8CBC56D0D71685AC57 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E73A979306EDF3D784E0FA3E19083BA4 /* CropViewController.modulemap */,
-				D88615D5A1BDC8FF169EF8778A437124 /* CropViewController.xcconfig */,
-				3B88E9F2823D9DA1A8DF767582D1D43D /* CropViewController-dummy.m */,
-				E9B0CC6A0C25786E1E42A1EDA37B6E5B /* CropViewController-Info.plist */,
-				CAECEC1D9F75CA679F27DED128130817 /* CropViewController-prefix.pch */,
-				62A692DF5BAAE66F1A5C3B16B16D5799 /* CropViewController-umbrella.h */,
-				AA16342D1251B27688925328B18F3737 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */,
+				6EFFF6996F82847F947416882E4DD1E5 /* ar.lproj */,
+				B9827E2FB8CC5AEABC977C6E81BD9B4F /* Base.lproj */,
+				7F10FE5BABC8F7C0131CB7C77A3B9C28 /* da-DK.lproj */,
+				97E6F0AEFB590F9B28F58C855C717803 /* de.lproj */,
+				5DA75639C10552CA53372B95E92A7D3F /* en.lproj */,
+				6350D0C0C288E860D2E49377B871403D /* es.lproj */,
+				EE80E0D4B45931521C9CBD7BC3C7DD38 /* fr.lproj */,
+				7992FC354E1E07C2DC1480C9412859BF /* hu.lproj */,
+				9AB82CD55AA18F6603BC700640E314DA /* id.lproj */,
+				D26C84CD1EF568D471CE2B02EF73D2E1 /* it.lproj */,
+				AA9AA7D79FB82DE48BF1A368D5545640 /* ja.lproj */,
+				433615D050EE54A03678E598EFAA9C29 /* ko.lproj */,
+				8F7C1E3EECC54A4F066BEA637989441F /* ms.lproj */,
+				D0AB6D4D44E6D7224D364113274FA391 /* nl.lproj */,
+				1E77C8D0531B625F4E3FD9D14B450641 /* pl.lproj */,
+				C2F041D9ACED5C1A9F0EBE8A0A1BC553 /* pt.lproj */,
+				A63EC3F87FB5FD0B5A68E718E8FB5BEA /* ro.lproj */,
+				0C0B8714C009D569FB6BE3293C036F73 /* ru.lproj */,
+				C74FD1902A633581AEDBCC9A97FFCB23 /* tr.lproj */,
+				3F922DCA65DB3C8E6E3837142E37C777 /* vi.lproj */,
+				B62A15FEE5AD7AE983A19BC5161B67E8 /* zh-Hans.lproj */,
+				7B85270CA45654BAF101EA5F8306A9DA /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C0300347A7B80BDEAEEA1FFD739B678 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1C0ECEABC22D9B18FFC3698021C711BD /* IQBarButtonItem.swift */,
+				5D4850211E1E8BAF045EC04856468E64 /* IQInvocation.swift */,
+				29457F882D8351D369605B41C6E36965 /* IQKeyboardManager.swift */,
+				C123D798FDB556BB4EF04489EC00BA19 /* IQKeyboardManagerConstants.swift */,
+				35890A844E32159E25EFAF1B62FD3332 /* IQKeyboardManagerConstantsInternal.swift */,
+				3695B4833323C6704AAE5A9E3767B01C /* IQKeyboardReturnKeyHandler.swift */,
+				91687F752A9414E2847AC21BDC65779C /* IQNSArray+Sort.swift */,
+				53F028627F850D558124E7F9961FCEE3 /* IQPreviousNextView.swift */,
+				9D1E16B64479581F6FD5432AE7C0E675 /* IQTextView.swift */,
+				67A146F53640178CAFC52B2F12532223 /* IQTitleBarButtonItem.swift */,
+				5AD3524AB0553FBF3B3051AF3A97E89E /* IQToolbar.swift */,
+				C2F71D35BB613857919D5F0EF5318524 /* IQUIScrollView+Additions.swift */,
+				22D62162E440C1B388766B3B41C30961 /* IQUITextFieldView+Additions.swift */,
+				5554DF515194E250E118D3F0005F6869 /* IQUIView+Hierarchy.swift */,
+				DB4422EDF7760AEB72D3368892665372 /* IQUIView+IQKeyboardToolbar.swift */,
+				A2B4C077EC9DB36B85D2646855942477 /* IQUIViewController+Additions.swift */,
+				15506685CECB7847808BCEDCFCCC8BD0 /* Resources */,
+				1F619B7B6301863EC811F3CFC1B5A3BF /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		4DFFF0F1E02573DF5312D0D3DFC8BE37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBAB1C24741135AB225CE6D2C890E51C /* CropViewController.modulemap */,
+				DE372453036977F02DF74A6E64F1C9AB /* CropViewController.xcconfig */,
+				9C8F49D78C56119929523208D4B38A75 /* CropViewController-dummy.m */,
+				26B237880C41811F6DA9F76D9AB2D6E8 /* CropViewController-Info.plist */,
+				9429C7A0EEA8F62B6F6592956FEE2B35 /* CropViewController-prefix.pch */,
+				355BFFE8E5D04FCF995458CAD8CDDBB6 /* CropViewController-umbrella.h */,
+				4F382F127AEE01DD6CCD6D6CAA35A884 /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CropViewController";
 			sourceTree = "<group>";
 		};
-		A4B3C6B17F2AD506DCDAF5C1B156352E /* Support Files */ = {
+		5967E5C0538F1201E685A63D9F860682 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1131D4CD9FD0826ED16B35458A456E59 /* TextFieldEffects.modulemap */,
-				E30A20FF0D3B1A8D8A0FCEE66B4E0BA8 /* TextFieldEffects.xcconfig */,
-				441712D4F3B78E126919C8228AC771B3 /* TextFieldEffects-dummy.m */,
-				2DFC8F4968643F1E8B52F4447A65AF2D /* TextFieldEffects-Info.plist */,
-				BFC9E0380CA8B62766A162AA72C12C78 /* TextFieldEffects-prefix.pch */,
-				1C22198466822500026C3FE13E21AD21 /* TextFieldEffects-umbrella.h */,
+				37BA36ABAE11A4C7B4B6A3B0CB576400 /* TextFieldEffects.modulemap */,
+				6EEC762D2F88095DF0FB5E5AD46D1043 /* TextFieldEffects.xcconfig */,
+				A4BEC70E08E6BCE2F0D17E78F0A258A6 /* TextFieldEffects-dummy.m */,
+				E24337973DC1CABAF9B6DB009C230C3A /* TextFieldEffects-Info.plist */,
+				CF84A2D0F50BFC7A90FC5F9695A788BC /* TextFieldEffects-prefix.pch */,
+				D9B07053FC65017DF251DCA5659DD4EC /* TextFieldEffects-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		7B73C9C619760BA87E9E77311FB27ABD /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				E005D5C1F4C6569F35457921DDD6121C /* InteractiveTransition.swift */,
+				7153ACDD95FCE5CCDFF8706292A02D4C /* PopupDialog.swift */,
+				CEC56307D7272F2B60DF889D0B5F1CE6 /* PopupDialog+Keyboard.swift */,
+				59E71225868DD08F51190427A3086310 /* PopupDialogButton.swift */,
+				2C6B4A6D06F149D3F08198F90E64467A /* PopupDialogContainerView.swift */,
+				1CF3DEABED83F03363AAA0ADEDE09086 /* PopupDialogDefaultButtons.swift */,
+				DD36D9B83A42BD95FBD2D7381FED6185 /* PopupDialogDefaultView.swift */,
+				A3E7E9756952E14F96360A6AB91DA8B5 /* PopupDialogDefaultViewController.swift */,
+				7D35F898EEDBD52478E318E0CE469002 /* PopupDialogOverlayView.swift */,
+				37ADFEED8921BB08B8DD1A9B87910A6C /* PresentationController.swift */,
+				8F02D9AE87F2D09D081A2C1153BEF93C /* PresentationManager.swift */,
+				944B4AE55CA900F480E214268F66652F /* TransitionAnimations.swift */,
+				2277CAC3D54F65D0F3CDFC317000704D /* TransitionAnimator.swift */,
+				0423E8F0DC50D8C7750A4A6A84D87973 /* UIImageView+Calculations.swift */,
+				99B18B0A6813BE1951974ECFC0572CED /* UIView+Animations.swift */,
+				40324FCDDBDEA52ED0FDF3E9BBDE812C /* UIViewController+Visibility.swift */,
+				A61AAF1C34EF1C9D9AA27221631A4FC5 /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		83D4BA4195BD21150B584B706623D5AF /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				D0654F04F06F38C5C55A6A97D5196EF5 /* AkiraTextField.swift */,
+				7A486B8405DB20236F2BB0433B9B146C /* HoshiTextField.swift */,
+				4DFE2E184DD775E7DC983481A4981FC5 /* IsaoTextField.swift */,
+				9A5F6B8E7CE5AF53E50A7F5D51309EDF /* JiroTextField.swift */,
+				097A933F0AACD8E4FE8F9FEEE70F10D8 /* KaedeTextField.swift */,
+				45D095891ED7177A2EC295F1FBC9331B /* MadokaTextField.swift */,
+				915180B40DF8384B2FEE2845CA705A9A /* MinoruTextField.swift */,
+				2674D72C102B9E21BA1FA427A058136E /* TextFieldEffects.swift */,
+				07748A8D8BD0500A28055DD309D6BD0A /* YokoTextField.swift */,
+				750F94DE9325C4E9927D8EB8315EEDA0 /* YoshikoTextField.swift */,
+				5967E5C0538F1201E685A63D9F860682 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		A61AAF1C34EF1C9D9AA27221631A4FC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFD0191F844552F12DD8BF664994EE /* PopupDialog.modulemap */,
+				07AD6C239D7392F7F29EA2877278BCCB /* PopupDialog.xcconfig */,
+				2F76F277AA039303395F82E49423B8EC /* PopupDialog-dummy.m */,
+				98AF67E18EEB911C6AF0393A1215B707 /* PopupDialog-Info.plist */,
+				E441D0A08451422A966FEBC5948ABD99 /* PopupDialog-prefix.pch */,
+				BFA1448D978D1A6EB8881FF1421EE782 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		A6AD0AA62398B615A8FF03E83840A76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB8B2CF194FEC417066C00F7B141EBF /* CropViewController.framework */,
+				179D251AB0A6D11AAAD6AD68675139CD /* DynamicBlurView.framework */,
+				466DD4FD34BB834F038D6AD6F1B816E0 /* IQKeyboardManagerSwift.framework */,
+				943EE574B11E539660A6A724886778B5 /* Pods_Winsure.framework */,
+				18F400B510934C2244968DB427C69263 /* PopupDialog.framework */,
+				68DB6118B11E82D2E94A3AC410F373EB /* TextFieldEffects.framework */,
+				134BFF4450FCF4E3F50C580BBD437C34 /* TOCropViewControllerBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC47BBA7372B7054B7C5362951326AF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA10DC309CCDAAD9ABF8A6486531A0E0 /* CropViewController */,
+				19A569CC7519DBE9F8F179B01D5A6D2F /* DynamicBlurView */,
+				4C0300347A7B80BDEAEEA1FFD739B678 /* IQKeyboardManagerSwift */,
+				7B73C9C619760BA87E9E77311FB27ABD /* PopupDialog */,
+				83D4BA4195BD21150B584B706623D5AF /* TextFieldEffects */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		ACF06BBEC39DFC9656F3F21B93AAD0E6 /* Pods-Winsure */ = {
@@ -435,90 +642,80 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		C0689C0BC7310262A188AE3A1E7ABD19 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD35F57B08FA07466EF52BE52CC46A1D /* iOS */,
+				6A8FBC811A33C7DBE47970438868528D /* Accelerate.framework */,
+				EDFA1B08C35E48B1433EAFCA09B91593 /* CoreGraphics.framework */,
+				C2F6CC2992F8A72C136D5C91BDD51ED4 /* Foundation.framework */,
+				B4D26D9FDCF9C18646445C7237EC7C8D /* QuartzCore.framework */,
+				98CDB49ADF433DFF629C28F36A35A6A1 /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				15D440054AE4A2850C113C1022FF457A /* Pods */,
-				F2C04EAF25EFA946E98FE45EEBEAD6A3 /* Products */,
+				DE7837930404BBA5FDB7015C3A7390B2 /* Frameworks */,
+				AC47BBA7372B7054B7C5362951326AF7 /* Pods */,
+				A6AD0AA62398B615A8FF03E83840A76D /* Products */,
 				B7EF66C26691A0C11ECBC9AB192F3560 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DD35F57B08FA07466EF52BE52CC46A1D /* iOS */ = {
+		DA10DC309CCDAAD9ABF8A6486531A0E0 /* CropViewController */ = {
 			isa = PBXGroup;
 			children = (
-				17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */,
-				4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */,
-				30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */,
-				1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		EEDEF0EAED107AE5AA8DD5DC0A6D5275 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CBC537BD860F7731886E8333893C9825 /* IQKeyboardManager.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F2C04EAF25EFA946E98FE45EEBEAD6A3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4D80EAD3D155E9B78A967A0766E619EC /* CropViewController.framework */,
-				F37B0EA97491BED7EF00AAC22ED51E11 /* IQKeyboardManagerSwift.framework */,
-				4357E2BEEAD65191E0D2BD862692A5CB /* Pods_Winsure.framework */,
-				D50012680B6510BA91EBA43A28E224F5 /* TextFieldEffects.framework */,
-				9B9FA06B0A72AF23061089C11FF6D382 /* TOCropViewControllerBundle.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FE088D7188D868F0DD29369BD84D96D1 /* CropViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C5183EEB011FA9D5050D32E03F177FE4 /* CropViewController.h */,
-				F25A4FEDDB026750A59B912D18ABAAFD /* CropViewController.swift */,
-				670DB905018E0DF3861BB1B2938881D9 /* TOActivityCroppedImageProvider.h */,
-				1421239C37871A2B5FE124B30B875F69 /* TOActivityCroppedImageProvider.m */,
-				697A2316C76AFBF5131D206C1F803978 /* TOCropOverlayView.h */,
-				A9893002BF06A5B75686BB57FAC699E0 /* TOCropOverlayView.m */,
-				6D90CE83CF58FE627EE437DF99C1CFA2 /* TOCroppedImageAttributes.h */,
-				4F88BF6F3F01BB10AAAB1A94D0F2D84B /* TOCroppedImageAttributes.m */,
-				691E3D098C9A9D0E73DDF858024310B7 /* TOCropScrollView.h */,
-				B31221DF27765340478C00786AEF44D6 /* TOCropScrollView.m */,
-				4F2174AAB017DF3D0D2833B8F47301BB /* TOCropToolbar.h */,
-				6CC91974C676CD1B9196FA77DABDC310 /* TOCropToolbar.m */,
-				2858E1C5A84CB8C47EC21C38892DF9AB /* TOCropView.h */,
-				9EAABBF41CE1FD49FA2F7D7ED9F8AF59 /* TOCropView.m */,
-				660E9AA2784F8345BAF91001047734A5 /* TOCropViewConstants.h */,
-				DCA0B5B06D9C77921FFF166A6125BC81 /* TOCropViewController.h */,
-				5FCD26DFA2D44285F51BDA2817DD5243 /* TOCropViewController.m */,
-				608C4496E597192380D04334AC5CCCC7 /* TOCropViewControllerTransitioning.h */,
-				6BF6DA3FA2D00CBDDAEF1AB44103F864 /* TOCropViewControllerTransitioning.m */,
-				A7F072543868A648A932ACE4DB63C426 /* UIImage+CropRotate.h */,
-				8F2E50665DB12DE5416AA687E070E815 /* UIImage+CropRotate.m */,
-				7819344734667785568593848FC18DF8 /* Resources */,
-				9C6F6B3D5B6FBA2C5776036FCCEA962F /* Support Files */,
+				B975F275C5F409444EDAA3BB3372C466 /* CropViewController.h */,
+				374621D292A9EA89336B6B1C11847189 /* CropViewController.swift */,
+				EB32D39674969DF6BAF8FBDB9B5685F4 /* TOActivityCroppedImageProvider.h */,
+				C80D70EFFF2D890484F23D0847281606 /* TOActivityCroppedImageProvider.m */,
+				0D58EF223B8C401FA5D8AB7732D54121 /* TOCropOverlayView.h */,
+				D1801D2E8C883806BFAFFDB603AF76A9 /* TOCropOverlayView.m */,
+				D6B48CAA27D0779C109CE31AED10135A /* TOCroppedImageAttributes.h */,
+				20E198E4D6856FF83DD33C0C23C3B49A /* TOCroppedImageAttributes.m */,
+				F26C83019EBCAB6717C135B8AA8E644D /* TOCropScrollView.h */,
+				F57347D983406D4D1C128160C7196F1A /* TOCropScrollView.m */,
+				647FC87FFA28A149B918E9C9E25E3663 /* TOCropToolbar.h */,
+				C4F8C14ACF605A5A770899FC9D529BF9 /* TOCropToolbar.m */,
+				4DBE0CA4E6CEC4E9D1E9727B2585AD7C /* TOCropView.h */,
+				40F82D76A6AA5B97705A06F9C569D8EF /* TOCropView.m */,
+				05F266C8CF3E0688A3A97785EC6A2007 /* TOCropViewConstants.h */,
+				17B16911E9E61EF3F6FCA3F4BF1C9A22 /* TOCropViewController.h */,
+				8D111E762862643064E7365E88EDF7B2 /* TOCropViewController.m */,
+				A833364D1EFA23B789FE211E0B27CE57 /* TOCropViewControllerTransitioning.h */,
+				2F2F5AD0BF461693378F175A55E77AD8 /* TOCropViewControllerTransitioning.m */,
+				208211D0DE6BFDD740E50BC8324D8DAB /* UIImage+CropRotate.h */,
+				E16C82FFC648EF33E86F658371C57C8A /* UIImage+CropRotate.m */,
+				31B611EBA12F5A8CBC56D0D71685AC57 /* Resources */,
+				4DFFF0F1E02573DF5312D0D3DFC8BE37 /* Support Files */,
 			);
 			name = CropViewController;
 			path = CropViewController;
 			sourceTree = "<group>";
 		};
+		DE7837930404BBA5FDB7015C3A7390B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38328F060AF39895E284A3811EC4A9BD /* DynamicBlurView.framework */,
+				C0689C0BC7310262A188AE3A1E7ABD19 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F8A072F58ABA89F978C42710947CBF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D7EA20567E73915EA0521A3ACFF64F /* Pods-Winsure-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39A25EAC25F5FA9F4496FA999100A655 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,62 +743,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AC5C74C08AC799AEDFDBB9956A6A738 /* Headers */ = {
+		605F63EC3CC6DD8D6EBCEB37637F17FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E28D6AE423DBE8E7F6720B79622D76 /* TextFieldEffects-umbrella.h in Headers */,
+				839A40B87D37A40C7AA29B800E333724 /* DynamicBlurView-umbrella.h in Headers */,
+				C608CD5014667D549210559A33CA1892 /* DynamicBlurView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7429F4E660D99AE1F2B5230A61D4ACE /* Headers */ = {
+		CAEA03481B39B18BFE2A4C8F50AAB33E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA762356365D8281B51E15F0748358D /* Pods-Winsure-umbrella.h in Headers */,
+				247263AB3D760547593EF1CC1CE758D9 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76AE3AFB7779316FD8B0A4904E7B3CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACA42B8813E5CA2BEB8969C900DE615 /* TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31353AC9D535EB02B93F08AF04CD9E2C /* TextFieldEffects */ = {
+		0445CB5F31DE0CB6C34C87F53A5B4A09 /* PopupDialog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 657A705D7EF55CA740CBEAAEB392023C /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildConfigurationList = C83EF8683C22D9842DEC31F544CA2635 /* Build configuration list for PBXNativeTarget "PopupDialog" */;
 			buildPhases = (
-				8AC5C74C08AC799AEDFDBB9956A6A738 /* Headers */,
-				399F3CB0D720521FE992DA76EF682270 /* Sources */,
-				96AFDDAD7E534D91ECCA07D51ABA1CB5 /* Frameworks */,
-				F23F63F500332BA73F1A39B528945CFE /* Resources */,
+				CAEA03481B39B18BFE2A4C8F50AAB33E /* Headers */,
+				C41AA5DEBE834D9A33874E1B5278AD44 /* Sources */,
+				FC2BE33AF492A165EB000CA3901D23C1 /* Frameworks */,
+				409FC63479A0C15F8D8F8093C7ED5417 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8B5AE0077D1872E27504D5F9E9B92AF4 /* PBXTargetDependency */,
 			);
-			name = TextFieldEffects;
-			productName = TextFieldEffects;
-			productReference = D50012680B6510BA91EBA43A28E224F5 /* TextFieldEffects.framework */;
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 18F400B510934C2244968DB427C69263 /* PopupDialog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AD869B638D9AC526DFD8B19FBA88CCD9 /* Pods-Winsure */ = {
+		259FA497B621B18FB2921DA18AA46AC2 /* DynamicBlurView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37E04E6D154B9903A0CF5B36FA565495 /* Build configuration list for PBXNativeTarget "Pods-Winsure" */;
+			buildConfigurationList = 42F3E018DABDBF2D4F22D7F144BD9AF2 /* Build configuration list for PBXNativeTarget "DynamicBlurView" */;
 			buildPhases = (
-				E7429F4E660D99AE1F2B5230A61D4ACE /* Headers */,
-				4C324F770CAE91CC8C4BFB2E164F679B /* Sources */,
-				A2B0A037BCAD32CB152B7DD70FB13783 /* Frameworks */,
-				13AE66847D14D880612DBC03B142A459 /* Resources */,
+				605F63EC3CC6DD8D6EBCEB37637F17FF /* Headers */,
+				9F7C4A233710EDA715FBFF4679D4F731 /* Sources */,
+				6F954DBE88DF5B843F07784A61AB0AAE /* Frameworks */,
+				4D7D7821B2568B6700CF333B6E5A11C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F81C3F7BC278A69D55EC01E06224B6AD /* PBXTargetDependency */,
-				C8DBDC9CE4240E770F7150CFF7BF0C76 /* PBXTargetDependency */,
-				4193CF358BC8D7600490380037E12D60 /* PBXTargetDependency */,
+			);
+			name = DynamicBlurView;
+			productName = DynamicBlurView;
+			productReference = 179D251AB0A6D11AAAD6AD68675139CD /* DynamicBlurView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		373A008DB504DEAF4973AC27F49FD988 /* Pods-Winsure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A954BBE2C19420B17BCAE48CC897F41 /* Build configuration list for PBXNativeTarget "Pods-Winsure" */;
+			buildPhases = (
+				0F8A072F58ABA89F978C42710947CBF6 /* Headers */,
+				D35856E6A70FB29AEBF1BA8C0A4B0F9E /* Sources */,
+				66E368F5374DBCE695CA52493C9EB9C2 /* Frameworks */,
+				184D52C49F8480C253A8EDDBFCB29578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EC33A3196D43758065983B8D90E3307 /* PBXTargetDependency */,
+				037879FEFE82A0DA85D86394D1D3B49B /* PBXTargetDependency */,
+				2598DBEB80CD830EED8DC6FA8B76486B /* PBXTargetDependency */,
+				15403A24D793D0C1A3E00BA2BB0A4B89 /* PBXTargetDependency */,
+				810598C1BF3F93702AD5CC595056961B /* PBXTargetDependency */,
 			);
 			name = "Pods-Winsure";
 			productName = "Pods-Winsure";
-			productReference = 4357E2BEEAD65191E0D2BD862692A5CB /* Pods_Winsure.framework */;
+			productReference = 943EE574B11E539660A6A724886778B5 /* Pods_Winsure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C59B34511F05B57A3858C8B2A04A9D15 /* CropViewController */ = {
@@ -620,7 +847,7 @@
 			);
 			name = CropViewController;
 			productName = CropViewController;
-			productReference = 4D80EAD3D155E9B78A967A0766E619EC /* CropViewController.framework */;
+			productReference = 4AB8B2CF194FEC417066C00F7B141EBF /* CropViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */ = {
@@ -638,7 +865,25 @@
 			);
 			name = IQKeyboardManagerSwift;
 			productName = IQKeyboardManagerSwift;
-			productReference = F37B0EA97491BED7EF00AAC22ED51E11 /* IQKeyboardManagerSwift.framework */;
+			productReference = 466DD4FD34BB834F038D6AD6F1B816E0 /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1B3BB0B32FACFE5C1A030A55F2A6D49 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376CAE4D84F8252263D612570082F256 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				F76AE3AFB7779316FD8B0A4904E7B3CA /* Headers */,
+				512A4432B82C97113EA8C139EB70BE6D /* Sources */,
+				185C2C33046A18108D5A413BC4BA5AEC /* Frameworks */,
+				8FA7DBC0517BAD29B2A56242EB6C7ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 68DB6118B11E82D2E94A3AC410F373EB /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F8690E9C865E9F085058559585223B97 /* CropViewController-TOCropViewControllerBundle */ = {
@@ -655,7 +900,7 @@
 			);
 			name = "CropViewController-TOCropViewControllerBundle";
 			productName = "CropViewController-TOCropViewControllerBundle";
-			productReference = 9B9FA06B0A72AF23061089C11FF6D382 /* TOCropViewControllerBundle.bundle */;
+			productReference = 134BFF4450FCF4E3F50C580BBD437C34 /* TOCropViewControllerBundle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -675,21 +920,23 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F2C04EAF25EFA946E98FE45EEBEAD6A3 /* Products */;
+			productRefGroup = A6AD0AA62398B615A8FF03E83840A76D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C59B34511F05B57A3858C8B2A04A9D15 /* CropViewController */,
 				F8690E9C865E9F085058559585223B97 /* CropViewController-TOCropViewControllerBundle */,
+				259FA497B621B18FB2921DA18AA46AC2 /* DynamicBlurView */,
 				EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */,
-				AD869B638D9AC526DFD8B19FBA88CCD9 /* Pods-Winsure */,
-				31353AC9D535EB02B93F08AF04CD9E2C /* TextFieldEffects */,
+				373A008DB504DEAF4973AC27F49FD988 /* Pods-Winsure */,
+				0445CB5F31DE0CB6C34C87F53A5B4A09 /* PopupDialog */,
+				F1B3BB0B32FACFE5C1A030A55F2A6D49 /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13AE66847D14D880612DBC03B142A459 /* Resources */ = {
+		184D52C49F8480C253A8EDDBFCB29578 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -725,11 +972,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		409FC63479A0C15F8D8F8093C7ED5417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D7821B2568B6700CF333B6E5A11C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D4BDB739E3CBAC73EBE9560F406C431 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EEFEF938C88CB3140DF857AF7C5BAA87 /* TOCropViewControllerBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA7DBC0517BAD29B2A56242EB6C7ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,42 +1009,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F23F63F500332BA73F1A39B528945CFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		399F3CB0D720521FE992DA76EF682270 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBA9ED83B871731D8E68F07B78932D1C /* AkiraTextField.swift in Sources */,
-				8792219CCFD67DF6CAC33763F6363165 /* HoshiTextField.swift in Sources */,
-				0921EB8D79F843EA14F395C411752408 /* IsaoTextField.swift in Sources */,
-				C6D658F30D19A23647A7C1B4174A91C1 /* JiroTextField.swift in Sources */,
-				0362FCC9A5F2C53BA3BCACD8499E0DA8 /* KaedeTextField.swift in Sources */,
-				3B127AF87002B2BE617B60368C78AB29 /* MadokaTextField.swift in Sources */,
-				7B3B160F2119AAA3842CB96369289AB8 /* MinoruTextField.swift in Sources */,
-				C8C0E20EE7419A2FA074084047A79EAA /* TextFieldEffects-dummy.m in Sources */,
-				ECF4606EAE2DA4236E298116AD6EEC7E /* TextFieldEffects.swift in Sources */,
-				545E5D1FDEBAB0939FF30A64B6B6CD85 /* YokoTextField.swift in Sources */,
-				2F254F9ADA9996FC3D17DF74B4C94A07 /* YoshikoTextField.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C324F770CAE91CC8C4BFB2E164F679B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7110C515BC826E2EE138124AFE4678A /* Pods-Winsure-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50CEEDE322708ABF7722F6D79CCF256B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -801,10 +1036,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		512A4432B82C97113EA8C139EB70BE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4447FFACE42BA9724ACDF269BD10C6 /* AkiraTextField.swift in Sources */,
+				266357DA0C30D8717DD51A8E8428DD0E /* HoshiTextField.swift in Sources */,
+				0995656B6D4F8DCF1CBEAFC8A0C12FB0 /* IsaoTextField.swift in Sources */,
+				E389DF2B15AA495D74EBD8549032296A /* JiroTextField.swift in Sources */,
+				FE64AE9422B58A1F75B5CE2579465FFC /* KaedeTextField.swift in Sources */,
+				4F97CC98FE9B8ADE761567F72CACF29D /* MadokaTextField.swift in Sources */,
+				094CAC61CCA449A854B66DBCDDBBE65B /* MinoruTextField.swift in Sources */,
+				A5AAA247F25C8E2FF19A12F56438E065 /* TextFieldEffects-dummy.m in Sources */,
+				9263BC9D77257788EEBCACCE7F502332 /* TextFieldEffects.swift in Sources */,
+				EB91D53FF90B1D4135B83AF22E8DF44C /* YokoTextField.swift in Sources */,
+				E60B6DA70F5F728D94F34460820D1A23 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77EDBFAA60EA1EE0BACE8BDFF3FC0C16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7C4A233710EDA715FBFF4679D4F731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699AA6D35A7C549B72DF9DF2DA356283 /* BlurLayer.swift in Sources */,
+				30FD6CA8052FBCAD2D41DF768AEF5D49 /* CaptureQuality.swift in Sources */,
+				931F6BA94CDA2C88C3E446AB7359437B /* CGContext+CGImage.swift in Sources */,
+				B0EBBC56A849150DCF4CACB5DA6AC44A /* CGImage+Accelerate.swift in Sources */,
+				9A0EADA9585165E1063D26C596C546F2 /* DynamicBlurView-dummy.m in Sources */,
+				1E60789D3801FE2CCFCDFE262CDB2C39 /* DynamicBlurView.swift in Sources */,
+				AFF5E68DF0232B4E331A2A6D07A23EF6 /* TrackingMode.swift in Sources */,
+				2B29853C2CD8A22239F8BA8AEAD7D870 /* UIImage+Blur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +1094,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C41AA5DEBE834D9A33874E1B5278AD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C075DF9C74FA5EFD58F6FDD9C8112B5 /* InteractiveTransition.swift in Sources */,
+				1B76D7C4EEE547E89EB72B0027006EE9 /* PopupDialog+Keyboard.swift in Sources */,
+				5D9E39419FBB711810F4207C1C6B2933 /* PopupDialog-dummy.m in Sources */,
+				C15BFF16B36DD546AED45CB2284D9890 /* PopupDialog.swift in Sources */,
+				6A8E92748577E96A7259D8C1284780D2 /* PopupDialogButton.swift in Sources */,
+				8B287BFEE934009D08EBDF88BD49C9D0 /* PopupDialogContainerView.swift in Sources */,
+				66B699FC705638D55602573440D3318A /* PopupDialogDefaultButtons.swift in Sources */,
+				908FBD89FADF0C8B53636D933F4CEA7F /* PopupDialogDefaultView.swift in Sources */,
+				228BC3B53E14631AFA31434B236E6B9E /* PopupDialogDefaultViewController.swift in Sources */,
+				6FB30BAC7FB32E9404A6014BA35DA66B /* PopupDialogOverlayView.swift in Sources */,
+				F4C546DF59AB1B27DF915110E27A80AD /* PresentationController.swift in Sources */,
+				65B68A475EA0ABDD6A401925B8CFB463 /* PresentationManager.swift in Sources */,
+				8E554684915EBE0AB17CFF4CCEB9B1B3 /* TransitionAnimations.swift in Sources */,
+				42D825DC36DB8630C8722C02FC64A259 /* TransitionAnimator.swift in Sources */,
+				1570F5DC498147D67FF6DFB7548F8901 /* UIImageView+Calculations.swift in Sources */,
+				F29E4086279F8938E0856F90D55096FB /* UIView+Animations.swift in Sources */,
+				FC13752EE79306A4623FB1ACDE86A16F /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35856E6A70FB29AEBF1BA8C0A4B0F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAABD94F2AA32A26E0FBA0FF02BBDA /* Pods-Winsure-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -835,30 +1135,86 @@
 			target = F8690E9C865E9F085058559585223B97 /* CropViewController-TOCropViewControllerBundle */;
 			targetProxy = D88E77966AE52F35E4B0CA1DB5D0361C /* PBXContainerItemProxy */;
 		};
-		4193CF358BC8D7600490380037E12D60 /* PBXTargetDependency */ = {
+		037879FEFE82A0DA85D86394D1D3B49B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TextFieldEffects;
-			target = 31353AC9D535EB02B93F08AF04CD9E2C /* TextFieldEffects */;
-			targetProxy = 4A71E68AF2B21CBF7DA72F78D1E60BD6 /* PBXContainerItemProxy */;
+			name = DynamicBlurView;
+			target = 259FA497B621B18FB2921DA18AA46AC2 /* DynamicBlurView */;
+			targetProxy = 1F55A861B7A871F3DA5C1723D7E26F17 /* PBXContainerItemProxy */;
 		};
-		C8DBDC9CE4240E770F7150CFF7BF0C76 /* PBXTargetDependency */ = {
+		15403A24D793D0C1A3E00BA2BB0A4B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 0445CB5F31DE0CB6C34C87F53A5B4A09 /* PopupDialog */;
+			targetProxy = 5BF28BC4ED45488BF53AA9C2051E9410 /* PBXContainerItemProxy */;
+		};
+		2598DBEB80CD830EED8DC6FA8B76486B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManagerSwift;
 			target = EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */;
-			targetProxy = 5B271BF28E98484D848DD244A39D209E /* PBXContainerItemProxy */;
+			targetProxy = 4DC11D257DFE7BA8DAA29FA37525CDF0 /* PBXContainerItemProxy */;
 		};
-		F81C3F7BC278A69D55EC01E06224B6AD /* PBXTargetDependency */ = {
+		2EC33A3196D43758065983B8D90E3307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CropViewController;
 			target = C59B34511F05B57A3858C8B2A04A9D15 /* CropViewController */;
-			targetProxy = FB40308DF8F5CAF19081693C47095E6E /* PBXContainerItemProxy */;
+			targetProxy = 264BCF226DE98078DB8887BCDC1E768B /* PBXContainerItemProxy */;
+		};
+		810598C1BF3F93702AD5CC595056961B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = F1B3BB0B32FACFE5C1A030A55F2A6D49 /* TextFieldEffects */;
+			targetProxy = AF1717AC790F8AB96A13A7100D61A206 /* PBXContainerItemProxy */;
+		};
+		8B5AE0077D1872E27504D5F9E9B92AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 259FA497B621B18FB2921DA18AA46AC2 /* DynamicBlurView */;
+			targetProxy = E40465617F81242D532DAF6A587BA4D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		07247484B74C28C414BFE3ECF8277E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6B2289629349734A7974734729BAA5 /* Pods-Winsure.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		38D9625B267B26ED374A0137B2BCE864 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D88615D5A1BDC8FF169EF8778A437124 /* CropViewController.xcconfig */;
+			baseConfigurationReference = DE372453036977F02DF74A6E64F1C9AB /* CropViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -893,7 +1249,7 @@
 		};
 		3D16EFFDE4EF6E85DD92093DBDED5192 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D88615D5A1BDC8FF169EF8778A437124 /* CropViewController.xcconfig */;
+			baseConfigurationReference = DE372453036977F02DF74A6E64F1C9AB /* CropViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -929,7 +1285,7 @@
 		};
 		417119BC55F15CD1131FF2FF88B5FE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C8134E9976BF0D1C5ADB2400AA9E39F /* IQKeyboardManagerSwift.xcconfig */;
+			baseConfigurationReference = 6AED0E917164250F2036BB585862F658 /* IQKeyboardManagerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -962,9 +1318,80 @@
 			};
 			name = Debug;
 		};
+		43F5E0466C275C7D98C308939D1AB340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEC762D2F88095DF0FB5E5AD46D1043 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B761291D0DBB830CF351B97B8C27696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13277DC6773FD3272CE239E7847F411D /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		583BD36AA820413AE16030EDE7188822 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D88615D5A1BDC8FF169EF8778A437124 /* CropViewController.xcconfig */;
+			baseConfigurationReference = DE372453036977F02DF74A6E64F1C9AB /* CropViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
@@ -975,6 +1402,114 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5AE220C39799688E2A4653B61060C10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AD6C239D7392F7F29EA2877278BCCB /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E098C653D4AA746FD646B9F4C9FF4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AD6C239D7392F7F29EA2877278BCCB /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		808AC772E356E32CCEA42B1219A40F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13277DC6773FD3272CE239E7847F411D /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1038,10 +1573,12 @@
 			};
 			name = Release;
 		};
-		9BAF4D24A2C8577F981458FF82E4D930 /* Debug */ = {
+		928D38074F6AFD39E76772C7E05F185E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E30A20FF0D3B1A8D8A0FCEE66B4E0BA8 /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = 149F063F88669BCA6D5E874BAD1770D0 /* Pods-Winsure.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1051,27 +1588,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				PRODUCT_MODULE_NAME = TextFieldEffects;
-				PRODUCT_NAME = TextFieldEffects;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1139,7 +1678,7 @@
 		};
 		D48C184AB794B706AEF6927209881DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D88615D5A1BDC8FF169EF8778A437124 /* CropViewController.xcconfig */;
+			baseConfigurationReference = DE372453036977F02DF74A6E64F1C9AB /* CropViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
@@ -1153,122 +1692,9 @@
 			};
 			name = Release;
 		};
-		DABBF09C6AAF30249DDF97D7A9FCED29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A6B2289629349734A7974734729BAA5 /* Pods-Winsure.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E41F72C3F3F025E8710BDD0116DBF4ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E30A20FF0D3B1A8D8A0FCEE66B4E0BA8 /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				PRODUCT_MODULE_NAME = TextFieldEffects;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E6C43197E4ED2C69D2EACFB456BE960B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 149F063F88669BCA6D5E874BAD1770D0 /* Pods-Winsure.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Winsure/Pods-Winsure.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EBA41C2F94158BC32DC1C2E799ED4B08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C8134E9976BF0D1C5ADB2400AA9E39F /* IQKeyboardManagerSwift.xcconfig */;
+			baseConfigurationReference = 6AED0E917164250F2036BB585862F658 /* IQKeyboardManagerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1302,14 +1728,59 @@
 			};
 			name = Release;
 		};
+		FF2111062CBACCEC289A86304D53AC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEC762D2F88095DF0FB5E5AD46D1043 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37E04E6D154B9903A0CF5B36FA565495 /* Build configuration list for PBXNativeTarget "Pods-Winsure" */ = {
+		0A954BBE2C19420B17BCAE48CC897F41 /* Build configuration list for PBXNativeTarget "Pods-Winsure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DABBF09C6AAF30249DDF97D7A9FCED29 /* Debug */,
-				E6C43197E4ED2C69D2EACFB456BE960B /* Release */,
+				07247484B74C28C414BFE3ECF8277E50 /* Debug */,
+				928D38074F6AFD39E76772C7E05F185E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		376CAE4D84F8252263D612570082F256 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F5E0466C275C7D98C308939D1AB340 /* Debug */,
+				FF2111062CBACCEC289A86304D53AC9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1323,6 +1794,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		42F3E018DABDBF2D4F22D7F144BD9AF2 /* Build configuration list for PBXNativeTarget "DynamicBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808AC772E356E32CCEA42B1219A40F84 /* Debug */,
+				4B761291D0DBB830CF351B97B8C27696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1332,11 +1812,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		657A705D7EF55CA740CBEAAEB392023C /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+		C83EF8683C22D9842DEC31F544CA2635 /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BAF4D24A2C8577F981458FF82E4D930 /* Debug */,
-				E41F72C3F3F025E8710BDD0116DBF4ED /* Release */,
+				5E098C653D4AA746FD646B9F4C9FF4E0 /* Debug */,
+				5AE220C39799688E2A4653B61060C10C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

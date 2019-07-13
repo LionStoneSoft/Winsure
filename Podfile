@@ -7,6 +7,7 @@ target 'Winsure' do
 pod 'TextFieldEffects'
 pod 'CropViewController'
 pod 'IQKeyboardManagerSwift'
+pod 'PopupDialog'
   # Pods for Winsure
 
 end

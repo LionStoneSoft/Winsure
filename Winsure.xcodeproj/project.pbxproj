@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		23DCF1C1674EB1893CE13938 /* Pods_Winsure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701822A0480F2095F17D462 /* Pods_Winsure.framework */; };
+		942C147F22DA105A00E8CB85 /* LocationAddPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C147D22DA105A00E8CB85 /* LocationAddPopup.swift */; };
+		942C148022DA105A00E8CB85 /* LocationAddPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942C147E22DA105A00E8CB85 /* LocationAddPopup.xib */; };
 		94835B1D22D61BFA00493FD1 /* ItemXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835B1B22D61BFA00493FD1 /* ItemXib.swift */; };
 		94835B1E22D61BFA00493FD1 /* ItemXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94835B1C22D61BFA00493FD1 /* ItemXib.xib */; };
 		94835B2022D6200300493FD1 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835B1F22D6200300493FD1 /* ItemView.swift */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		3701822A0480F2095F17D462 /* Pods_Winsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Winsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942C147D22DA105A00E8CB85 /* LocationAddPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAddPopup.swift; sourceTree = "<group>"; };
+		942C147E22DA105A00E8CB85 /* LocationAddPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationAddPopup.xib; sourceTree = "<group>"; };
 		94835B1B22D61BFA00493FD1 /* ItemXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemXib.swift; sourceTree = "<group>"; };
 		94835B1C22D61BFA00493FD1 /* ItemXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemXib.xib; sourceTree = "<group>"; };
 		94835B1F22D6200300493FD1 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				94F640F822D38B89007B68E2 /* LocationXib.xib */,
 				94835B1B22D61BFA00493FD1 /* ItemXib.swift */,
 				94835B1C22D61BFA00493FD1 /* ItemXib.xib */,
+				942C147D22DA105A00E8CB85 /* LocationAddPopup.swift */,
+				942C147E22DA105A00E8CB85 /* LocationAddPopup.xib */,
 			);
 			path = "Xib files";
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 				94835B1E22D61BFA00493FD1 /* ItemXib.xib in Resources */,
 				94F640FA22D38B89007B68E2 /* LocationXib.xib in Resources */,
 				94F640EE22D23486007B68E2 /* LaunchScreen.storyboard in Resources */,
+				942C148022DA105A00E8CB85 /* LocationAddPopup.xib in Resources */,
 				94F640EB22D23486007B68E2 /* Assets.xcassets in Resources */,
 				94F640E622D23485007B68E2 /* Main.storyboard in Resources */,
 			);
@@ -212,7 +219,9 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Winsure/Pods-Winsure-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -220,7 +229,9 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +273,7 @@
 				94F640E322D23485007B68E2 /* Locations.swift in Sources */,
 				94835B2022D6200300493FD1 /* ItemView.swift in Sources */,
 				94835B2222D6355900493FD1 /* ItemCreate.swift in Sources */,
+				942C147F22DA105A00E8CB85 /* LocationAddPopup.swift in Sources */,
 				948A5F4A22D4A79A002952B1 /* LocationCreate.swift in Sources */,
 				94835B1D22D61BFA00493FD1 /* ItemXib.swift in Sources */,
 				94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */,

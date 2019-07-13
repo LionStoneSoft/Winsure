@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationAddPopup" customModule="Winsure" customModuleProvider="target">
+            <connections>
+                <outlet property="addPhotoButton" destination="O5A-ID-gcl" id="6Yd-IS-tqH"/>
+                <outlet property="backgroundView" destination="tVB-aE-ohY" id="7lj-Bo-5mN"/>
+                <outlet property="locationAddTextField" destination="SRc-YH-sPU" id="X6n-cU-zxO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="234"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVB-aE-ohY">
+                    <rect key="frame" x="0.0" y="0.0" width="290" height="234"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5A-ID-gcl">
+                            <rect key="frame" x="105" y="21" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="O5A-ID-gcl" secondAttribute="height" multiplier="1:1" id="Igs-VV-pNi"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="plus"/>
+                            <connections>
+                                <action selector="addLocationPhotoButton:" destination="-1" eventType="touchUpInside" id="tse-64-n2e"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" placeholder="Location Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SRc-YH-sPU" customClass="AkiraTextField" customModule="TextFieldEffects">
+                            <rect key="frame" x="8" y="109" width="274" height="61"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="61" id="HO3-VL-fcf"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.13676008579999999" green="0.7064190507" blue="0.43973171709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                    <color key="value" red="0.48401186800000001" green="1" blue="0.66607118629999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PL-fC-t2E">
+                            <rect key="frame" x="103" y="187" width="84" height="30"/>
+                            <color key="backgroundColor" red="0.13676008579999999" green="0.7064190507" blue="0.43973171709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="Create">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="createLocationButton:" destination="-1" eventType="touchUpInside" id="nYJ-6o-7iE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="8PL-fC-t2E" secondAttribute="trailing" constant="103" id="1sk-QY-9HA"/>
+                        <constraint firstItem="O5A-ID-gcl" firstAttribute="leading" secondItem="tVB-aE-ohY" secondAttribute="leading" constant="105" id="Dvb-FC-C63"/>
+                        <constraint firstAttribute="trailing" secondItem="SRc-YH-sPU" secondAttribute="trailing" constant="8" id="F11-A4-oY9"/>
+                        <constraint firstAttribute="bottom" secondItem="SRc-YH-sPU" secondAttribute="bottom" constant="64" id="QXE-6D-HwZ"/>
+                        <constraint firstItem="SRc-YH-sPU" firstAttribute="top" secondItem="O5A-ID-gcl" secondAttribute="bottom" constant="8" id="a5Y-Tv-F4B"/>
+                        <constraint firstItem="8PL-fC-t2E" firstAttribute="top" secondItem="SRc-YH-sPU" secondAttribute="bottom" constant="17" id="bPQ-4x-ee0"/>
+                        <constraint firstItem="SRc-YH-sPU" firstAttribute="leading" secondItem="tVB-aE-ohY" secondAttribute="leading" constant="8" id="kfj-8Z-gaY"/>
+                        <constraint firstItem="8PL-fC-t2E" firstAttribute="leading" secondItem="tVB-aE-ohY" secondAttribute="leading" constant="103" id="lgH-BH-Mg6"/>
+                        <constraint firstAttribute="bottom" secondItem="8PL-fC-t2E" secondAttribute="bottom" constant="17" id="phD-fe-wjg"/>
+                        <constraint firstItem="SRc-YH-sPU" firstAttribute="top" secondItem="O5A-ID-gcl" secondAttribute="bottom" constant="8" id="qlg-22-Psz"/>
+                        <constraint firstItem="O5A-ID-gcl" firstAttribute="top" secondItem="tVB-aE-ohY" secondAttribute="top" constant="21" id="wXu-zh-6O1"/>
+                        <constraint firstAttribute="trailing" secondItem="O5A-ID-gcl" secondAttribute="trailing" constant="105" id="yo9-Oy-qgC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tVB-aE-ohY" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="YhR-71-VdR"/>
+                <constraint firstItem="tVB-aE-ohY" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="fPs-4z-zIr"/>
+                <constraint firstItem="tVB-aE-ohY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kEr-UK-lg5"/>
+                <constraint firstItem="tVB-aE-ohY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nCs-VQ-haP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="164.80000000000001" y="197.00149925037482"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="plus" width="256" height="256"/>
+    </resources>
+</document>

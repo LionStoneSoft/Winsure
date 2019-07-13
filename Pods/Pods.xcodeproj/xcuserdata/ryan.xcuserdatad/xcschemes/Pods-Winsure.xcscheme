@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD869B638D9AC526DFD8B19FBA88CCD9"
+               BlueprintIdentifier = "373A008DB504DEAF4973AC27F49FD988"
                BuildableName = "Pods_Winsure.framework"
                BlueprintName = "Pods-Winsure"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD869B638D9AC526DFD8B19FBA88CCD9"
+            BlueprintIdentifier = "373A008DB504DEAF4973AC27F49FD988"
             BuildableName = "Pods_Winsure.framework"
             BlueprintName = "Pods-Winsure"
             ReferencedContainer = "container:Pods.xcodeproj">

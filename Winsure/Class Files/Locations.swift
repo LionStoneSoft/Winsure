@@ -8,8 +8,10 @@
 
 import UIKit
 import CoreData
+import PopupDialog
+//import TextFieldEffects
 
-class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate {
+class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate, LocationReloadDataDelegate {
 
     @IBOutlet var exportButton: UIBarButtonItem!
     @IBOutlet var locationTable: UITableView!
@@ -44,8 +46,7 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
             print("failed homie")
         }
     }
-
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return locationObjectsArray.count
     }
@@ -73,5 +74,42 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         self.locationTable.endUpdates()
     }
     
+    @IBAction func addLocationButton(_ sender: UIButton) {
+        showCustomDialog()
+        viewWillAppear(false)
+    }
+    
+    func showCustomDialog(animated: Bool = true) {
+        
+        // Create a custom view controller
+        let addLocationVC = LocationAddPopup(nibName: "LocationAddPopup", bundle: nil)
+        
+        // Create the dialog
+        let popup = PopupDialog(viewController: addLocationVC,
+                                buttonAlignment: .horizontal,
+                                transitionStyle: .bounceUp,
+                                tapGestureDismissal: true,
+                                panGestureDismissal: false)
+        addLocationVC.delegate = self
+////        // Create first button
+//        let buttonOne = CancelButton(title: "Cancel", height: 60) {
+//            print("user cancelled")
+//        }
+//
+//        // Create second button
+//        let buttonTwo = DefaultButton(title: "Create", height: 60) {
+//            print("user created")
+//        }
+//
+////        // Add buttons to dialog
+//        popup.addButtons([buttonOne, buttonTwo])
+        
+        // Present dialog
+        present(popup, animated: animated, completion: nil)
+    }
+    
+    func reloadTableData() {
+        viewWillAppear(true)
+    }
 }
 
