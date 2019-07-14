@@ -45,6 +45,7 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         } catch {
             print("failed homie")
         }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -118,5 +119,6 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
     func reloadTableData() {
         viewWillAppear(true)
     }
+
 }
 
