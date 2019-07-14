@@ -40,7 +40,8 @@ class LocationAddPopup: UIViewController, UIImagePickerControllerDelegate, UINav
     }
     
     func roundedImage() {
-        self.addPhotoButton.layer.cornerRadius = 58
+        let radius: CGFloat = addPhotoButton.bounds.size.width / 2.0
+        self.addPhotoButton.layer.cornerRadius = radius
         self.addPhotoButton.clipsToBounds = true
     }
 

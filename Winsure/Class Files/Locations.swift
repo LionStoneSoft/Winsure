@@ -9,7 +9,6 @@
 import UIKit
 import CoreData
 import PopupDialog
-//import TextFieldEffects
 
 class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate, LocationReloadDataDelegate {
 

@@ -14,7 +14,6 @@
 		94835B1E22D61BFA00493FD1 /* ItemXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94835B1C22D61BFA00493FD1 /* ItemXib.xib */; };
 		94835B2022D6200300493FD1 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835B1F22D6200300493FD1 /* ItemView.swift */; };
 		94835B2222D6355900493FD1 /* ItemCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835B2122D6355900493FD1 /* ItemCreate.swift */; };
-		948A5F4A22D4A79A002952B1 /* LocationCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A5F4922D4A79A002952B1 /* LocationCreate.swift */; };
 		948A5F4C22D4AB67002952B1 /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A5F4B22D4AB67002952B1 /* ItemsList.swift */; };
 		94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E022D23485007B68E2 /* AppDelegate.swift */; };
 		94F640E322D23485007B68E2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F640E222D23485007B68E2 /* Locations.swift */; };
@@ -34,7 +33,6 @@
 		94835B1C22D61BFA00493FD1 /* ItemXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemXib.xib; sourceTree = "<group>"; };
 		94835B1F22D6200300493FD1 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		94835B2122D6355900493FD1 /* ItemCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreate.swift; sourceTree = "<group>"; };
-		948A5F4922D4A79A002952B1 /* LocationCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCreate.swift; sourceTree = "<group>"; };
 		948A5F4B22D4AB67002952B1 /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
 		94F640DD22D23485007B68E2 /* Winsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Winsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F640E022D23485007B68E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				94F640E222D23485007B68E2 /* Locations.swift */,
-				948A5F4922D4A79A002952B1 /* LocationCreate.swift */,
 				948A5F4B22D4AB67002952B1 /* ItemsList.swift */,
 				94835B1F22D6200300493FD1 /* ItemView.swift */,
 				94835B2122D6355900493FD1 /* ItemCreate.swift */,
@@ -274,7 +271,6 @@
 				94835B2022D6200300493FD1 /* ItemView.swift in Sources */,
 				94835B2222D6355900493FD1 /* ItemCreate.swift in Sources */,
 				942C147F22DA105A00E8CB85 /* LocationAddPopup.swift in Sources */,
-				948A5F4A22D4A79A002952B1 /* LocationCreate.swift in Sources */,
 				94835B1D22D61BFA00493FD1 /* ItemXib.swift in Sources */,
 				94F640E122D23485007B68E2 /* AppDelegate.swift in Sources */,
 				94F640E922D23485007B68E2 /* Winsure.xcdatamodeld in Sources */,
