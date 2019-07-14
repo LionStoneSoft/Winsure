@@ -13,6 +13,7 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var itemTable: UITableView!
     
     var itemObjectsArray = [NSManagedObject]()
+    var itemObject: NSManagedObject?
     var locationID: String?
     
     override func viewDidLoad() {
@@ -21,7 +22,6 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
         itemTable.delegate = self
         itemTable.dataSource = self
         self.navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
-        print(locationID)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -48,6 +48,11 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
             let secondView = segue.destination as! ItemCreate
             secondView.locationID = locationID
         }
+        
+        if segue.identifier == "goToItemDetail" {
+            let secondView = segue.destination as! ItemView
+            secondView.itemObject = itemObject
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -66,6 +71,11 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
             cell.itemImage.image = UIImage.init(named: "scooby")
         }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        itemObject = itemObjectsArray[indexPath.row]
+        self.performSegue(withIdentifier: "goToItemDetail", sender: self)
     }
     
     func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
