@@ -13,6 +13,7 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var itemTable: UITableView!
     
     var itemObjectsArray = [NSManagedObject]()
+    var locationID: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,7 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
         itemTable.delegate = self
         itemTable.dataSource = self
         self.navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
+        print(locationID)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -30,12 +32,21 @@ class ItemsList: UIViewController, UITableViewDelegate, UITableViewDataSource {
         do {
             let result = try managedContext.fetch(fetchRequest)
             for data in result as! [NSManagedObject] {
-                print(data.value(forKey: "itemTitle") as! String)
-                itemObjectsArray = itemObjectsArray + [data]
+                if data.value(forKey: "itemID") as? String == locationID {
+                    print(data.value(forKey: "itemTitle") as! String)
+                    itemObjectsArray = itemObjectsArray + [data]
+                }
             }
             itemTable.reloadData()
         } catch {
             print("failed homie")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToItemCreate" {
+            let secondView = segue.destination as! ItemCreate
+            secondView.locationID = locationID
         }
     }
     

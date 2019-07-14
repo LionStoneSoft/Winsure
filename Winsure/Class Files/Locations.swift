@@ -20,6 +20,7 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
     let cellColour = [UIColor.red, UIColor.blue, UIColor.green]
     let cellImage = ["blueCellGradient", "greenCellGradient", "orangeCellGradient", "purpleCellGradient"]
     var locationObjectsArray = [NSManagedObject]()
+    var locationID: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +47,13 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToItems" {
+            let secondView = segue.destination as! ItemsList
+            secondView.locationID = locationID
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return locationObjectsArray.count
     }
@@ -65,7 +73,7 @@ class Locations: UIViewController, UITableViewDelegate, UITableViewDataSource, N
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        locationID = locationObjectsArray[indexPath.row].value(forKey: "locationID") as? String
         self.performSegue(withIdentifier: "goToItems", sender: self)
     }
     

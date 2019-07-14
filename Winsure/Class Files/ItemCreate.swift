@@ -28,6 +28,8 @@ class ItemCreate: UIViewController, UIImagePickerControllerDelegate, UINavigatio
     var imageNSDataFour: NSData?
     
     var imageCount = 0
+    
+    var locationID: String?
 
 
     override func viewDidLoad() {
@@ -149,6 +151,7 @@ class ItemCreate: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         item.setValue(imageNSDataTwo, forKey: "itemPicTwo")
         item.setValue(imageNSDataThree, forKey: "itemPicThree")
         item.setValue(imageNSDataFour, forKey: "itemPicFour")
+        item.setValue(locationID, forKey: "itemID")
         
 //        let uuid = UUID().uuidString
 //        item.setValue(uuid, forKey: "locationID")

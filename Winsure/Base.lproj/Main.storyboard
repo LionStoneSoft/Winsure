@@ -166,7 +166,7 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="plus"/>
                                 <connections>
-                                    <segue destination="m8u-yB-uai" kind="show" id="8Dx-3s-nzU"/>
+                                    <segue destination="m8u-yB-uai" kind="show" identifier="goToItemCreate" id="8Dx-3s-nzU"/>
                                 </connections>
                             </button>
                         </subviews>
